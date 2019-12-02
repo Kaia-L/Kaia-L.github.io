@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《数据结构》关键词索引整理（一）</title>
+    <url>/2019/12/02/Key-Words-in-Data-Structure/</url>
+    <content><![CDATA[<p>既然数据结构会考这种送分题那我就不客气了👌</p>
+<h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><h3 id="计算科学-computer-science-P2"><a href="#计算科学-computer-science-P2" class="headerlink" title="计算科学(computer science) P2"></a>计算科学(computer science) <em>P2</em></h3><p>科学计算的核心在于研究计算方法与过程，而不仅仅是作为计算工具本身。因此E.Digkstra更倾向于将这门学科称为计算科学(computing science)</p>
+<h3 id="排序-sorting-P4"><a href="#排序-sorting-P4" class="headerlink" title="排序(sorting) P4"></a>排序(sorting) <em>P4</em></h3><p>将n个整数按通常的大小次序排成一个非降序列。这类操作统称为排序。</p>
+<h3 id="有穷性-finiteness-P6"><a href="#有穷性-finiteness-P6" class="headerlink" title="有穷性(finiteness)P6"></a>有穷性(finiteness)<em>P6</em></h3><p>任意算法都应该在执行有限次基本操作之后终止并给出输出，此即所谓算法的有穷性。</p>
+<h3 id="正确性（correctness）P6"><a href="#正确性（correctness）P6" class="headerlink" title="正确性（correctness）P6"></a>正确性（correctness）<em>P6</em></h3><p>所给的输出还应该能够符合由问题本身在事先确定的条件，此即所谓算法的正确性。</p>
+<h3 id="退化（degeneracy）P7"><a href="#退化（degeneracy）P7" class="headerlink" title="退化（degeneracy）P7"></a>退化（degeneracy）<em>P7</em></h3><p>除一般情况外，实用的算法还应该能够处理各种极端的输入实例。</p>
+<h3 id="鲁棒性（robustness）P7"><a href="#鲁棒性（robustness）P7" class="headerlink" title="鲁棒性（robustness）P7"></a>鲁棒性（robustness）<em>P7</em></h3><p>要求能够尽可能充分地应对退化的情况。</p>
+<h3 id="可计算性（computability）P7"><a href="#可计算性（computability）P7" class="headerlink" title="可计算性（computability）P7"></a>可计算性（computability）<em>P7</em></h3><p>就大量应用问题而言，根本就不可能设计出必然终止的算法，从这个意义讲，它们都属于不可解的问题。</p>
+<h3 id="难解性（intractability）P8"><a href="#难解性（intractability）P8" class="headerlink" title="难解性（intractability）P8"></a>难解性（intractability）<em>P8</em></h3><p>大量问题的最低求解时间成本都远远超出目前实际系统所能提供的计算能力，这类问题被称为难解问题。</p>
+<h3 id="时间复杂度（time-complexity）P8"><a href="#时间复杂度（time-complexity）P8" class="headerlink" title="时间复杂度（time complexity）P8"></a>时间复杂度（time complexity）<em>P8</em></h3><p>执行时间的这一变化趋势可表示为输入规模的一个函数，称作该算法的时间复杂度。</p>
+<h3 id="渐进分析（asymptotic-analysis）P9"><a href="#渐进分析（asymptotic-analysis）P9" class="headerlink" title="渐进分析（asymptotic analysis）P9"></a>渐进分析（asymptotic analysis）<em>P9</em></h3><p>在评价算法运行效率时，我们往往可以忽略其处理小规模问题时的能力差异，转而关注其在处理更大规模问题时的表现，这种从长远、更为注重时间复杂度的总体变化趋势和增长速度的策略和方法，即所谓的渐进分析法。</p>
+<h3 id="大O记号（big-O-notation）P9"><a href="#大O记号（big-O-notation）P9" class="headerlink" title="大O记号（big-O notation）P9"></a>大O记号（big-O notation）<em>P9</em></h3><p>针对足够大的输入规模n，我们把算法执行时间计为T（n）。T（n）的渐进上界即为O（n）。具体地，若存在正的常数c和函数f（n），使得对于任何n&gt;&gt;2都有</p>
+<blockquote>
+<p>T（n）&lt;=  c·（f（n））</p>
+</blockquote>
+<p>则可认为在n足够大之后，f（n）给出了T（n）增长速度的一个渐进上界，此时记之为：</p>
+<blockquote>
+<p>T（n）=  O（n）</p>
+</blockquote>
+<p>由这一定义，可导出大O记号的以下性质：</p>
+<blockquote>
+<p>(1)对于任意常数c&gt;0,有O（f（n））=O（c·f（n））<br>(2)对于任意常数a&gt;b&gt;0，有O（n^a+n^b)=O(n^a)</p>
+</blockquote>
+<h3 id="图灵机（Turning-Machine）和随机存储机（Random-Access-Machine，RAM）P9"><a href="#图灵机（Turning-Machine）和随机存储机（Random-Access-Machine，RAM）P9" class="headerlink" title="图灵机（Turning Machine）和随机存储机（Random Access Machine，RAM）P9"></a>图灵机（Turning Machine）和随机存储机（Random Access Machine，RAM）<em>P9</em></h3><p>在这些计算模型中，指令语句均可分解为若干次基本操作，比如算数运算、比较、分支、子程序点用与往返等；而在大多素实际的计算环境中，每次这种类型的基本操作都可在常数时间内完成。如此，不妨将T（n）定义为算法所执行基本操作的总次数。</p>
+<h3 id="最坏情况（worst-case）P10"><a href="#最坏情况（worst-case）P10" class="headerlink" title="最坏情况（worst case）P10"></a>最坏情况（worst case）<em>P10</em></h3><p>该算法的任何程序所需要的时间绝对不会超过这个情况。</p>
+<h3 id="最好情况（best-case）P10"><a href="#最好情况（best-case）P10" class="headerlink" title="最好情况（best case）P10"></a>最好情况（best case）<em>P10</em></h3><h3 id="平均情况（average-case）P10"><a href="#平均情况（average-case）P10" class="headerlink" title="平均情况（average case）P10"></a>平均情况（average case）<em>P10</em></h3><p>按照某种约定的概率分布，将规模为n的所有输入对应的计算时间加权平均。</p>
+<h3 id="大欧米茄记号"><a href="#大欧米茄记号" class="headerlink" title="大欧米茄记号"></a>大欧米茄记号</h3><h3 id="空间复杂度（space-complexity）P11"><a href="#空间复杂度（space-complexity）P11" class="headerlink" title="空间复杂度（space complexity）P11"></a>空间复杂度（space complexity）<em>P11</em></h3><p>算法所需存储空间的多少也是衡量其性能的一个重要方面。</p>
+<h3 id="常数时间复杂度算法（constant-time-algorithm）P12"><a href="#常数时间复杂度算法（constant-time-algorithm）P12" class="headerlink" title="常数时间复杂度算法（constant-time algorithm）P12"></a>常数时间复杂度算法（constant-time algorithm）<em>P12</em></h3><p>运行时间可表示和度量为T（n） = O（1）的这类算法，统称为“常数时间复杂度算法”。</p>
+<h3 id="对数时间复杂度（logarithmic-time-algorithm）P13"><a href="#对数时间复杂度（logarithmic-time-algorithm）P13" class="headerlink" title="对数时间复杂度（logarithmic-time algorithm）P13"></a>对数时间复杂度（logarithmic-time algorithm）<em>P13</em></h3><p>由大O记号定义，在用函数logr(n)界定渐进复杂度时，常底数r的具体值无所谓，故通常不予专门标出而笼统地记作logn ，可直接记作O（logn）。</p>
+<h3 id="线性时间复杂度（liner-time-algorithm）P14"><a href="#线性时间复杂度（liner-time-algorithm）P14" class="headerlink" title="线性时间复杂度（liner-time algorithm）P14"></a>线性时间复杂度（liner-time algorithm）<em>P14</em></h3><p>凡运行时间可以表示和度量为T（n）=  O（n）形式的这一类算法。</p>
+<h3 id="多项式时间复杂度（polynomial-time-algorithm）P14"><a href="#多项式时间复杂度（polynomial-time-algorithm）P14" class="headerlink" title="多项式时间复杂度（polynomial-time algorithm）P14"></a>多项式时间复杂度（polynomial-time algorithm）<em>P14</em></h3><p>若运行时间可以表示和度量为T（n）= O（f（n））的形式，而且f（x）为多项式。</p>
+<h3 id="可有效求解-易解性（tractable）P14"><a href="#可有效求解-易解性（tractable）P14" class="headerlink" title="可有效求解/易解性（tractable）P14"></a>可有效求解/易解性（tractable）<em>P14</em></h3><p>在多项式时间复杂度范围内的算法，被称为有效求解的或易解的。</p>
+<h3 id="指数时间复杂度算法（exponential-time-algorithm）P15"><a href="#指数时间复杂度算法（exponential-time-algorithm）P15" class="headerlink" title="指数时间复杂度算法（exponential-time algorithm）P15"></a>指数时间复杂度算法（exponential-time algorithm）<em>P15</em></h3><p>凡运行时间可以表示和度为T（n）= O（a^n）形式的算法（a&gt;1)</p>
+<h3 id="难解（intractable）P15"><a href="#难解（intractable）P15" class="headerlink" title="难解（intractable）P15"></a>难解（intractable）<em>P15</em></h3><p>不在多项式复杂度算法的问题</p>
+<h3 id="伪对数（pseudo-logarithm）和伪线性（pseudo-liner）的复杂度P16"><a href="#伪对数（pseudo-logarithm）和伪线性（pseudo-liner）的复杂度P16" class="headerlink" title="伪对数（pseudo-logarithm）和伪线性（pseudo-liner）的复杂度P16"></a>伪对数（pseudo-logarithm）和伪线性（pseudo-liner）的复杂度<em>P16</em></h3><p>对待计算问题的输入规模，应严格定义为“用以描述输入所需的空间规模”。有的算法以输入参数n本身的数值作为基准而得出的O（logn）和O（n）复杂度，应该用参数n二进制展开的宽度r作为输入规模更为合理，也就是用O（r）和O（2^r）。</p>
+<h3 id="递归调用（recursive-call）P16"><a href="#递归调用（recursive-call）P16" class="headerlink" title="递归调用（recursive call）P16"></a>递归调用（recursive call）<em>P16</em></h3><p>递归则是函数和过程点用的一种特殊形式，即允许函数和过程进行自我调用。</p>
+<h3 id="递归基（base-case-of-recursion）P17"><a href="#递归基（base-case-of-recursion）P17" class="headerlink" title="递归基（base case of recursion）P17"></a>递归基（base case of recursion）<em>P17</em></h3><p>首先判断平凡情况的，以免因无限递归而导致系统溢出。</p>
+<h3 id="线性递归（linear-recursion）P17"><a href="#线性递归（linear-recursion）P17" class="headerlink" title="线性递归（linear recursion）P17"></a>线性递归（linear recursion）<em>P17</em></h3><p>每一层次上至多只有一个实例，而且它们构成一个线性的次序关系。</p>
+<h3 id="减而治之（decrease-and-conquer）P17"><a href="#减而治之（decrease-and-conquer）P17" class="headerlink" title="减而治之（decrease-and-conquer）P17"></a>减而治之（decrease-and-conquer）<em>P17</em></h3><p>线性递归的模式，往往对应于所谓减而治之的算法策略：递归每深入一层，待求解问题的规模都缩减一个常数，直至最终蜕化为平凡的小（简单）问题。</p>
+<h3 id="递归跟踪（recursion-trace）P17"><a href="#递归跟踪（recursion-trace）P17" class="headerlink" title="递归跟踪（recursion trace）P17"></a>递归跟踪（recursion trace）<em>P17</em></h3><p>作为一种直观且可视的方法，可用于分析递归算法的总体运行时间与空间，具体就是按以下原则，将递归算法的执行过程整理为图的形式：</p>
+<blockquote>
+<p>算法的每一递归实例都表示为一个方框，其中注明了该实例调用的参数<br>若实例M调用实例N，则在M与N对应的方框之间添加一条有向联线</p>
+</blockquote>
+<h3 id="递推方程（recurrence-equation）P19"><a href="#递推方程（recurrence-equation）P19" class="headerlink" title="递推方程（recurrence equation）P19"></a>递推方程（recurrence equation）<em>P19</em></h3><p>与跟踪分析相反，该方法无需绘出具体的调用过程，而是通过对递归模式的数学归纳，导出复杂度定界函数的递推方程（组）及其边界条件，从而将复杂度的分析，转化为递归方程（组）的求解。</p>
+<h3 id="函数重载（overload）P20"><a href="#函数重载（overload）P20" class="headerlink" title="函数重载（overload）P20"></a>函数重载（overload）<em>P20</em></h3><p>函数重载机制定义了名称相同、参数表有别的函数。</p>
+<h3 id="尾递归（tail-recursion）P22"><a href="#尾递归（tail-recursion）P22" class="headerlink" title="尾递归（tail recursion）P22"></a>尾递归（tail recursion）<em>P22</em></h3><p>在线性递归算法中，若递归调用在递归实例中恰好以最后一步操作的形式出现，则称作尾递归。</p>
+<h3 id="分而治之（divide-and-conquer）P22"><a href="#分而治之（divide-and-conquer）P22" class="headerlink" title="分而治之（divide-and-conquer）P22"></a>分而治之（divide-and-conquer）<em>P22</em></h3><p>就是将问题分解为若干规模更小的子问题，再通过递归机制分别求解。这种分解持续进行，直到子问题规模缩减至平凡情况。</p>
+<h3 id="多路递归（multi-way-recursion）P23"><a href="#多路递归（multi-way-recursion）P23" class="headerlink" title="多路递归（multi-way recursion）P23"></a>多路递归（multi-way recursion）<em>P23</em></h3><p>与减而治之的策略一样，这里也对原问题重新表述，以保证子问题与原问题在接口形式上的一致。既然每一递归实例都可能做多次递归，故称作“多路递归”。通常将问原问题一分为二，故称作“二分递归”（binary recursion）。要强调的是，无论是分解为两个还是更大常数个子问题，对算法总体的渐进复杂并无实质影响。</p>
+<h3 id="制表（tabulation）-记忆（memoization）P25"><a href="#制表（tabulation）-记忆（memoization）P25" class="headerlink" title="制表（tabulation）/记忆（memoization）P25"></a>制表（tabulation）/记忆（memoization）<em>P25</em></h3><p>可以从原问题出发自顶而下，每当遇到一个子问题，都首先检查它是否已经计算过，以其通过直接调阅记录获得解答，从而避免重新计算。</p>
+<h3 id="动态规划（dynamic-programming）P25"><a href="#动态规划（dynamic-programming）P25" class="headerlink" title="动态规划（dynamic programming）P25"></a>动态规划（dynamic programming）<em>P25</em></h3><p>可以递归基出发，自底而上递推地得出各子问题的解，直至最终原问题的解。</p>
+<h3 id="抽象数据类型（abstract-data-type，ADT）P26"><a href="#抽象数据类型（abstract-data-type，ADT）P26" class="headerlink" title="抽象数据类型（abstract data type，ADT）P26"></a>抽象数据类型（abstract data type，ADT）<em>P26</em></h3><p>数据集合及其对应的操作可超脱于具体的程序设计语言、具体的实现方式，即构成所谓的抽象数据类型。</p>
+<h3 id="接口（interface）、实现（implementation）P26"><a href="#接口（interface）、实现（implementation）P26" class="headerlink" title="接口（interface）、实现（implementation）P26"></a>接口（interface）、实现（implementation）<em>P26</em></h3><p>具体将从数据结构的对外接口出发，以c++语言为例，逐层讲解其内部具体实现的原理、方法与技巧，并就不同实现方式的效率及实用范围进行分析与比较。</p>
+]]></content>
+      <categories>
+        <category>-学习</category>
+      </categories>
+      <tags>
+        <tag>-数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hoxe系列（一）搭建博客网站</title>
     <url>/2019/12/02/page/</url>
     <content><![CDATA[<p>早就想搭建一个个人博客了，因为一直以来都挺喜欢写写文字记录一下感想和生活的。但是本菜鸡断断续续地学了半年前端、H5、CSS、Js甚至还涉及到了React还有flutter，但是都因为觉得自己搭站工程巨大，遥遥无期，都没有坚持，半途而废了。无意中看别人的博客，发现用hexo和git一起搭建个人博客还是挺简单的，自己试了下，大概用了两个小时就搭建完成了。美滋滋。写篇文章得瑟一下。</p>
