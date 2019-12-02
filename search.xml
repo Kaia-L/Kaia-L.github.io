@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>demo</title>
+    <url>/2019/12/03/demo/</url>
+    <content><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg" alt></p>
+<a id="more"></a>
+]]></content>
+  </entry>
+  <entry>
     <title>《数据结构》关键词索引整理（二）</title>
     <url>/2019/12/03/Key-Words-in-Data-Structure2/</url>
     <content><![CDATA[<blockquote>
@@ -82,7 +89,11 @@
   <entry>
     <title>hoxe系列（一）搭建博客网站</title>
     <url>/2019/12/02/page/</url>
-    <content><![CDATA[<p>早就想搭建一个个人博客了，因为一直以来都挺喜欢写写文字记录一下感想和生活的。但是本菜鸡断断续续地学了半年前端、H5、CSS、Js甚至还涉及到了React还有flutter，但是都因为觉得自己搭站工程巨大，遥遥无期，都没有坚持，半途而废了。无意中看别人的博客，发现用hexo和git一起搭建个人博客还是挺简单的，自己试了下，大概用了两个小时就搭建完成了。美滋滋。写篇文章得瑟一下。</p>
+    <content><![CDATA[<blockquote>
+<p>“  真正被爱的人在爱人眼里是绽放的丁香，航船渔火，学校铃声，山水风景，难以忘怀的谈话，朋友，孩子的周日，消逝的声音，最心爱的衣服，秋天和所有的季节。 ”<br>/ 杜鲁门·卡波特《别的声音，别的房间》</p>
+</blockquote>
+<a id="more"></a>
+<p>早就想搭建一个个人博客了，因为一直以来都挺喜欢写写文字记录一下感想和生活的。但是本菜鸡断断续续地学了半年前端、H5、CSS、Js甚至还涉及到了React还有flutter，但是都因为觉得自己搭站工程巨大，遥遥无期，都没有坚持，半途而废了。无意中看别人的博客，发现用hexo和git一起搭建个人博客还是挺简单的，自己试了下，大概用了两个小时就搭建完成了。美滋滋。写篇文章得瑟一下。</p>
 <h4 id="搭建环境："><a href="#搭建环境：" class="headerlink" title="搭建环境："></a>搭建环境：</h4><p>Caralina 10.15.1</p>
 <h4 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>在官网上下载了pkg，双击安装。<br>git电脑上默认就安装了。</p>
 <p>安装好Node.js以后，使用npm完成对hexo的安装。打开终端，输入</p>
