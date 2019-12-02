@@ -5,9 +5,9 @@
   <subtitle>Keep Going</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://kaia-l.github.io/"/>
+  <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
   <updated>2019-12-02T10:13:25.527Z</updated>
-  <id>https://kaia-l.github.io/</id>
+  <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
     <name>Kaia</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hoxe系列（一）搭建博客网站</title>
-    <link href="https://kaia-l.github.io/2019/12/02/page/"/>
-    <id>https://kaia-l.github.io/2019/12/02/page/</id>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/</id>
     <published>2019-12-02T03:26:32.000Z</published>
     <updated>2019-12-02T10:13:25.527Z</updated>
     
@@ -34,16 +34,16 @@
     
     
     
-      <category term="hoxe" scheme="https://Kaia-L.github.io/tags/hoxe/"/>
+      <category term="hoxe" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/hoxe/"/>
     
-      <category term="学习" scheme="https://Kaia-L.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://kaia-l.github.io/2019/12/01/hello-world/"/>
-    <id>https://kaia-l.github.io/2019/12/01/hello-world/</id>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/</id>
     <published>2019-12-01T14:36:02.587Z</published>
     <updated>2019-12-02T10:07:38.446Z</updated>
     
@@ -58,7 +58,7 @@
     </summary>
     
     
-      <category term="-生活" scheme="https://Kaia-L.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="-生活" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
