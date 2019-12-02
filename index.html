@@ -188,7 +188,7 @@
       
         
         <li class="menu-item menu-item-首页">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-snowflake-o"></i> <br />
             
@@ -198,7 +198,7 @@
       
         
         <li class="menu-item menu-item-关于">
-          <a href="/about/%20" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-grav"></i> <br />
             
@@ -208,7 +208,7 @@
       
         
         <li class="menu-item menu-item-标签">
-          <a href="/tags/%20" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
             
@@ -218,7 +218,7 @@
       
         
         <li class="menu-item menu-item-分类">
-          <a href="/categories/%20" rel="section">
+          <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-ravelry"></i> <br />
             
@@ -228,7 +228,7 @@
       
         
         <li class="menu-item menu-item-归档">
-          <a href="/archives/%20" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-meetup"></i> <br />
             
@@ -238,7 +238,7 @@
       
         
         <li class="menu-item menu-item-日程">
-          <a href="/schedule/%20" rel="section">
+          <a href="/schedule/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-diamond"></i> <br />
             
@@ -406,38 +406,15 @@
       
         
           
-            <p>早就想搭建一个个人博客了，因为一直以来都挺喜欢写写文字记录一下感想和生活的。但是本菜鸡断断续续地学了半年前端、H5、CSS、Js甚至还涉及到了React还有flutter，但是都因为觉得自己搭站工程巨大，遥遥无期，都没有坚持，半途而废了。无意中看别人的博客，发现用hexo和git一起搭建个人博客还是挺简单的，自己试了下，大概用了两个小时就搭建完成了。美滋滋。写篇文章得瑟一下。</p>
-<h4 id="搭建环境："><a href="#搭建环境：" class="headerlink" title="搭建环境："></a>搭建环境：</h4><p>Caralina 10.15.1</p>
-<h4 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>在官网上下载了pkg，双击安装。<br>git电脑上默认就安装了。</p>
-<p>安装好Node.js以后，使用npm完成对hexo的安装。打开终端，输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span></pre></td></tr></table></figure>
-<p>视个人网速等待一会之后，hexo就安装完成了。</p>
-<h3 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h3><p>先在自己喜欢的任何地方建一个文件夹，终端输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo init _folder_</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">$ cd folder</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">$ npm install</span></pre></td></tr></table></figure>
-<p>这时我们的博客雏形其实已经搭建好了，文件内容已经由hexo帮我们生成了建站所有需要的文件。<br>首先我们先关注根目录下的_config.yml文件，它包括了网站需要的配置信息，可以配置绝大部分的参数。<br>首先我们一定要改的一般是：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">title: your website title</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">subtitle: xxxx</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">author: your name</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">url: 你挂靠的网页的网址（这个我们会在下文提到）</span></pre></td></tr></table></figure>
-<p>别的可以暂时用默认值。<br>其中</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">theme: landscape#是我们马上要继续讲的主题</span></pre></td></tr></table></figure>
-<p><strong>重要的是，冒号后面一定要有英文半角的空格</strong><br>剩下目前我们就需要关注两个文件夹：<br><strong>source:</strong>存放我们写的文章和草稿<br><strong>theme:</strong>主题文件夹。hexo就是根据它来生成我们的网页页面，网站最终会是什么样子的，就依靠这个来决定。这个<a href="https://www.zhihu.com/question/24422335" target="_blank" rel="noopener">知乎</a>链接里有主题的评星、链接和示例图，大家可以用来参考选择。<br>现在先不管这两个文件夹，再次回到termial，输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
-<p>其中d指deploy也就是部署，-g指generate，表示如果部署时还没生成静态页面就先执行generate，这实际上是两个操作，我们这里一步来完成。等一小段时间，网页就部署好了，这时候输入第二行代码，terminal上会显示：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;0.0.0.0:4000&#x2F;. Press Ctrl+C to stop.</span></pre></td></tr></table></figure>
-<p>我们在浏览器中输入<a href="http://0.0.0.0:4000就能看到刚才的部署的页面了，就是我们博客的样子～" target="_blank" rel="noopener">http://0.0.0.0:4000就能看到刚才的部署的页面了，就是我们博客的样子～</a><br>现在只能本地访问，如果我们希望其他人也能看到，就需要将网页部署到某个服务上去。我选择了github，其他方式操作应该也是类似的。</p>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>首先要注册一个github的账号，然后按照<a href="https://pages.github.com/" target="_blank" rel="noopener">Github Page</a>这上面的步骤，我们就能获得一个类似于https://<em>usernam</em>.github.io的域名地址。同时我们在github上也有一个对应的repository，用来存放我们页面的内容。<br>这时候，打开前面提到的根目录下的_config.yml，在url后填入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">url: https:&#x2F;&#x2F;username.github.io#对应你自己的地址</span></pre></td></tr></table></figure>
-<p>在文件底部的deploy填入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">deploy:</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">type: git</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">repo: &lt;repositoty url&gt; #前面获得域名时创建的repository地址,注意和前面的那个url是不一样的，这里是repository的地址，在github上可以看到</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">branch: [branch] #要发布内容的分支，一般是master</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">message: [message] ##自定义提交信息，留空就可以。</span></pre></td></tr></table></figure>
-<p>这时我们再打开terminal，输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span></pre></td></tr></table></figure>
-<p>我在这里出现了报错，提示无法链接git或者找不到git，解决办法是安装<code>hexo-deployer-git</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span></pre></td></tr></table></figure>
-<p>这个地方提示要输入GitHub的账号和密码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">Username for GitHub:</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">Password for GitHub:</span></pre></td></tr></table></figure>
-<p>网页就被部署到<a href="https://username.github.io上了，稍等几分钟，在浏览器的地址栏输入，就能访问博客。" target="_blank" rel="noopener">https://username.github.io上了，稍等几分钟，在浏览器的地址栏输入，就能访问博客。</a><br>至此，博客建站完毕。</p>
-<h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><p>在前文提到过的source文件夹下，新建一个*.md文件，想写的内容填进去，重新生成、部署，稍等会就能看到我们更新的博客了。</p>
-<h3 id="其他插件"><a href="#其他插件" class="headerlink" title="其他插件"></a>其他插件</h3><p>其他还有一些博客管理内容，比如google analytical统计，dispute评论栏，都可以很简单的添加到页面中。在后面对blog的完善中会继续提到。</p>
-
-          
+          早就想搭建一个个人博客了，因为一直以来都挺喜欢写写文字记录一下感想和生活的。但是本菜鸡断断续续地学了半年前端、H5、CSS、Js甚至还涉及到了React还有flutter，但是都因为觉得自己搭站工程巨大，遥遥无期，都没有坚持，半途而废了。无意中看别人的博客，发现用hexo和git一起搭建个人博客还是
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/12/02/page/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -577,9 +554,16 @@
       
         
           
-            <p>欢迎来到菜鸡Kaia的部落格，分享生活和学习的日常，望常更新：）</p>
+          欢迎来到菜鸡Kaia的部落格。分享生活和学习的日常。望常更新：）接受催更。
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/12/01/hello-world/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -706,7 +690,7 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="https://github.com/yourname" target="_blank" title="GitHub">
+                    <a href="https://github.com/Kaia-L" target="_blank" title="GitHub">
                       
                         <i class="fa fa-fw fa-github"></i></a>
                   </span>
