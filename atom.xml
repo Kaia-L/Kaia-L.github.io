@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kaia&#39;s Little Planet</title>
   
-  
+  <subtitle>Keep Going</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-02T05:53:37.335Z</updated>
-  <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
+  <link href="https://kaia-l.github.io/"/>
+  <updated>2019-12-02T10:13:25.527Z</updated>
+  <id>https://kaia-l.github.io/</id>
   
   <author>
     <name>Kaia</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>hoxe系列（一）搭建博客网站</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/</id>
+    <link href="https://kaia-l.github.io/2019/12/02/page/"/>
+    <id>https://kaia-l.github.io/2019/12/02/page/</id>
     <published>2019-12-02T03:26:32.000Z</published>
-    <updated>2019-12-02T05:53:37.335Z</updated>
+    <updated>2019-12-02T10:13:25.527Z</updated>
     
     <summary type="html">
     
@@ -34,14 +34,18 @@
     
     
     
+      <category term="hoxe" scheme="https://Kaia-L.github.io/tags/hoxe/"/>
+    
+      <category term="学习" scheme="https://Kaia-L.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/</id>
+    <link href="https://kaia-l.github.io/2019/12/01/hello-world/"/>
+    <id>https://kaia-l.github.io/2019/12/01/hello-world/</id>
     <published>2019-12-01T14:36:02.587Z</published>
-    <updated>2019-12-02T04:10:06.151Z</updated>
+    <updated>2019-12-02T10:07:38.446Z</updated>
     
     <summary type="html">
     
@@ -53,6 +57,8 @@
     
     </summary>
     
+    
+      <category term="-生活" scheme="https://Kaia-L.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
