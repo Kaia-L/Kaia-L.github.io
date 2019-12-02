@@ -34,9 +34,11 @@
 <h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><p>在前文提到过的source文件夹下，新建一个*.md文件，想写的内容填进去，重新生成、部署，稍等会就能看到我们更新的博客了。</p>
 <h3 id="其他插件"><a href="#其他插件" class="headerlink" title="其他插件"></a>其他插件</h3><p>其他还有一些博客管理内容，比如google analytical统计，dispute评论栏，都可以很简单的添加到页面中。在后面对blog的完善中会继续提到。</p>
 ]]></content>
+      <categories>
+        <category>-学习</category>
+      </categories>
       <tags>
-        <tag>hoxe</tag>
-        <tag>学习</tag>
+        <tag>-建站 - hoxe</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-02T10:13:25.527Z</updated>
+  <updated>2019-12-02T11:42:48.148Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/</id>
     <published>2019-12-02T03:26:32.000Z</published>
-    <updated>2019-12-02T10:13:25.527Z</updated>
+    <updated>2019-12-02T11:42:48.148Z</updated>
     
     <summary type="html">
     
@@ -33,10 +33,10 @@
     </summary>
     
     
+      <category term="-学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="hoxe" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/hoxe/"/>
     
-      <category term="学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="-建站 - hoxe" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E5%BB%BA%E7%AB%99-hoxe/"/>
     
   </entry>
   
@@ -45,7 +45,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/01/hello-world/</id>
     <published>2019-12-01T14:36:02.587Z</published>
-    <updated>2019-12-02T10:07:38.446Z</updated>
+    <updated>2019-12-02T11:42:49.285Z</updated>
     
     <summary type="html">
     
