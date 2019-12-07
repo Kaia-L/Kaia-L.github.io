@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>毛中特第十章（5）</title>
+    <title>Key_Words_in_Date_Structure5</title>
+    <url>/2019/12/06/Key-Words-in-Date-Structure5/</url>
+    <content><![CDATA[<h1 id="第五章-二叉树"><a href="#第五章-二叉树" class="headerlink" title="第五章 二叉树"></a>第五章 二叉树</h1><a id="more"></a>
+<h3 id="线性结构（linear-structure）P110"><a href="#线性结构（linear-structure）P110" class="headerlink" title="线性结构（linear structure）P110"></a>线性结构（linear structure）<em>P110</em></h3><p>元素之间存在一个自然的线性次序，故它们都属于所谓的线性结构。</p>
+<h3 id="半线性结构（semi-linear-structure）"><a href="#半线性结构（semi-linear-structure）" class="headerlink" title="半线性结构（semi-linear structure）"></a>半线性结构（semi-linear structure）</h3><p>树则不然，元素之间并不存在天然的直接后继或直接前驱关系，只要附加某种约束（比如遍历），也可以在树中的元素之间确定某种线性次序，因此属于半线性结构。</p>
+<h3 id="顶点（vertex）、边（edge）、根（root）、节点（node）、有根树（rooted-tree）P110"><a href="#顶点（vertex）、边（edge）、根（root）、节点（node）、有根树（rooted-tree）P110" class="headerlink" title="顶点（vertex）、边（edge）、根（root）、节点（node）、有根树（rooted tree）P110"></a>顶点（vertex）、边（edge）、根（root）、节点（node）、有根树（rooted tree）<em>P110</em></h3><p>从图论的角度看，树等价于连通无环图，因此与图一样，树也由一组顶点、以及连接与其间的若干条边组成，在计算机科学中，还会制定某一特定顶点并称之为根。在指定根节点之后，我们也称之为有根树。从程序的角度看，我们更多地将顶点称作节点。</p>
+<h3 id="祖先（ancestor）、后代（descendant）、真祖先（properancestor）、真后代（proper-descendant）P111"><a href="#祖先（ancestor）、后代（descendant）、真祖先（properancestor）、真后代（proper-descendant）P111" class="headerlink" title="祖先（ancestor）、后代（descendant）、真祖先（properancestor）、真后代（proper descendant）P111"></a>祖先（ancestor）、后代（descendant）、真祖先（properancestor）、真后代（proper descendant）<em>P111</em></h3><p>任一节点v在通往树根沿途径所经过的每一个节点都称为他的祖先，v是它们的后代。特别指出的是，v的祖先/后代包括其本身，而v本身以外的祖先/后代称作真祖先/真后代。</p>
+<h3 id="父亲（parent）、孩子（child）P111"><a href="#父亲（parent）、孩子（child）P111" class="headerlink" title="父亲（parent）、孩子（child）P111"></a>父亲（parent）、孩子（child）<em>P111</em></h3><p>节点v历代祖先的层次，自下而上以1为单位逐层递减；在每一层上，v的祖先至多一个。特别地，若节点u是v的祖先且恰好比v高出一层，则称u是v的父亲，v是u的孩子。</p>
+<h3 id="度数-度（degree）、叶节点（leaf）、内部节点（internal-node）P111"><a href="#度数-度（degree）、叶节点（leaf）、内部节点（internal-node）P111" class="headerlink" title="度数/度（degree）、叶节点（leaf）、内部节点（internal node）P111"></a>度数/度（degree）、叶节点（leaf）、内部节点（internal node）<em>P111</em></h3><p>任一节点v的孩子总数，称作其度数或度。无孩子的节点称作叶节点，包括根在内的其余节点皆为内部节点。</p>
+<h3 id="子树（subtree）P111"><a href="#子树（subtree）P111" class="headerlink" title="子树（subtree）P111"></a>子树（subtree）<em>P111</em></h3><p>任一节点v的所有后代及其之间的联边称作子树，记作subtree（v），我们往往不区分节点（v）以及以之为根的子树subtree（v）。</p>
+<h3 id="高度（height）P111"><a href="#高度（height）P111" class="headerlink" title="高度（height）P111"></a>高度（height）<em>P111</em></h3><p>树T中所有节点深度的最大值称作该树的高度。</p>
+<h3 id="二叉树（binary-tree）P111"><a href="#二叉树（binary-tree）P111" class="headerlink" title="二叉树（binary tree）P111"></a>二叉树（binary tree）<em>P111</em></h3><p>二叉树中每个节点的度数均不超过2。</p>
+<h3 id="有序二叉树（ordered-binary-tree）P111"><a href="#有序二叉树（ordered-binary-tree）P111" class="headerlink" title="有序二叉树（ordered binary tree）P111"></a>有序二叉树（ordered binary tree）<em>P111</em></h3><p>在二叉树中，同一父节点的孩子都可以以左、右相互区分——此时，亦称作有序二叉树。</p>
+<h3 id="真二叉树（proper-binary-tree）P111"><a href="#真二叉树（proper-binary-tree）P111" class="headerlink" title="真二叉树（proper binary tree）P111"></a>真二叉树（proper binary tree）<em>P111</em></h3><p>不含一度节点的二叉树称作真二叉树。</p>
+<h3 id="多叉树（k-ary-tree）P112"><a href="#多叉树（k-ary-tree）P112" class="headerlink" title="多叉树（k-ary tree）P112"></a>多叉树（k-ary tree）<em>P112</em></h3><p>一般地，树中各节点的孩子数目并不确定，每个节点的孩子均不超过k个的有根树，称作k叉树。</p>
+<h3 id="有序多叉树（odered-tree）P113"><a href="#有序多叉树（odered-tree）P113" class="headerlink" title="有序多叉树（odered tree）P113"></a>有序多叉树（odered tree）<em>P113</em></h3>]]></content>
+      <categories>
+        <category>-考研</category>
+      </categories>
+      <tags>
+        <tag>-datastructure</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Key_Words_in_Date_Structure4</title>
+    <url>/2019/12/06/Key-Words-in-Date-Structure4/</url>
+    <content><![CDATA[<h1 id="第四章栈与队列"><a href="#第四章栈与队列" class="headerlink" title="第四章栈与队列"></a>第四章栈与队列</h1><a id="more"></a>
+<h3 id="栈（stack）P86"><a href="#栈（stack）P86" class="headerlink" title="栈（stack）P86"></a>栈（stack）<em>P86</em></h3><p>栈是存放数据对象的一种特殊容器，其中的数据元素按线性的逻辑次序排列，故可以定义首、末元素。栈结构支持插入和删除操作，但仅限于某特定的一段，禁止操作的一端被称作盲端。</p>
+<h3 id="栈顶（stack-top）、栈底（stack-bottom）P87"><a href="#栈顶（stack-top）、栈底（stack-bottom）P87" class="headerlink" title="栈顶（stack top）、栈底（stack bottom）P87"></a>栈顶（stack top）、栈底（stack bottom）<em>P87</em></h3><p>栈中可操作的一端称为栈顶，而另一端无法直接操作的盲端称为栈底。</p>
+<h3 id="入栈（push）、出栈（pop）"><a href="#入栈（push）、出栈（pop）" class="headerlink" title="入栈（push）、出栈（pop）"></a>入栈（push）、出栈（pop）</h3><p>栈的插入和删除分别称为入栈和出栈。</p>
+<h3 id="后进先出（last-in-first-out，LIFO）"><a href="#后进先出（last-in-first-out，LIFO）" class="headerlink" title="后进先出（last-in-first-out，LIFO）"></a>后进先出（last-in-first-out，LIFO）</h3><p>由于栈位置的约定和限制可知，栈中的元素必然遵循“后进先出”的规律，从栈的整个生命周期来看，最先进入栈的元素会最后出栈，最后入栈的元素会最先出栈。</p>
+<h3 id="点用栈（call-stack）、执行栈（execution-stack）P89"><a href="#点用栈（call-stack）、执行栈（execution-stack）P89" class="headerlink" title="点用栈（call stack）、执行栈（execution stack）P89"></a>点用栈（call stack）、执行栈（execution stack）<em>P89</em></h3><p>在大多数操作系统中，每一个运行中的二进制程序都配有一个调用栈或执行栈，借助点用栈可以跟踪属于同一程序的所有函数，记录它们之间的相互调用关系，并保证在每一调用实例执行完毕之后，可以准确地返回。</p>
+<h3 id="帧（frame）、返回地址（return-address）P89"><a href="#帧（frame）、返回地址（return-address）P89" class="headerlink" title="帧（frame）、返回地址（return address）P89"></a>帧（frame）、返回地址（return address）<em>P89</em></h3><p>调用栈的基本单位是帧，每次调用函数时，都会相应地创建一帧，记录该函数实例在二进制程序中的返回地址，以及局部变量、传人参数等，并将该帧压入调用栈。</p>
+<h3 id="活跃函数实例（active-function-instance）P89"><a href="#活跃函数实例（active-function-instance）P89" class="headerlink" title="活跃函数实例（active function instance）P89"></a>活跃函数实例（active function instance）<em>P89</em></h3><p>在任一时刻，调用栈中的各帧，依次对应于那些尚未返回的调用实例，亦即当时的活跃函数实例。</p>
+<h3 id="逆波兰表达式（reverse-Polish-notation-RPN）P96"><a href="#逆波兰表达式（reverse-Polish-notation-RPN）P96" class="headerlink" title="逆波兰表达式（reverse Polish notation,RPN）P96"></a>逆波兰表达式（reverse Polish notation,RPN）<em>P96</em></h3><p>逆波兰表达式是数学表达式的一种，其语法规则可概括为：操作符紧邻于对应的（最后一个）操作数之后。</p>
+<h3 id="后缀表达式（postfix）、中缀表达式（infix）P97"><a href="#后缀表达式（postfix）、中缀表达式（infix）P97" class="headerlink" title="后缀表达式（postfix）、中缀表达式（infix）P97"></a>后缀表达式（postfix）、中缀表达式（infix）<em>P97</em></h3><p>RPN亦称作后缀表达式，原表达式亦称作中缀表达式。</p>
+<h3 id="剪枝（pruning）P99"><a href="#剪枝（pruning）P99" class="headerlink" title="剪枝（pruning）P99"></a>剪枝（pruning）<em>P99</em></h3><p>基于对应用问题的深刻理解，利用问题本身具有的某些规律尽可能多、尽可能早地排除搜索空间中的候选解。其中一种重要的技巧就是，根据候选解的某些局部特征，以候选解子集为单位批量地排除。搜索空间多呈树状结构，而被排除的候选解往往隶属于同一分枝，故这一技巧也可以形象地称作剪枝。</p>
+<h3 id="试探（probing）P99"><a href="#试探（probing）P99" class="headerlink" title="试探（probing）P99"></a>试探（probing）<em>P99</em></h3><p>剪枝对应的算法多呈现为如下模式：从零开始，尝试逐步增加候选解的长度，这一过程是在成批地考察具有特定前缀的所有候选解，这种从长度是上逐步向目标靠近的尝试，称作试探。</p>
+<h3 id="回溯（backtracking）P99"><a href="#回溯（backtracking）P99" class="headerlink" title="回溯（backtracking）P99"></a>回溯（backtracking）<em>P99</em></h3><p>作为解的局部特征，特征前缀在试探的过程中一旦被发现与目标解不合，则收缩到前一步的长度，然后继续下一可能的组合。特征前缀长度缩减的这类操作，称作回溯。</p>
+<h3 id="队列（queue）、队头（front）、队尾（rear）P105"><a href="#队列（queue）、队头（front）、队尾（rear）P105" class="headerlink" title="队列（queue）、队头（front）、队尾（rear）P105"></a>队列（queue）、队头（front）、队尾（rear）<em>P105</em></h3><p>队列也是存放数据对象的一种容器，其中的数据对象也按线性的逻辑次序排列。队列结构同样支持对象的插入和删除，但两种操作的范围分别被限制于队列的两端——若约定新对象只能从某一端插入其中，则只能从另一端删除已有的元素。允许取出元素的一端作队头，而允许插入元素的另一端称作队尾。</p>
+<h3 id="入队（enqueue）、出队（dequeue）P105"><a href="#入队（enqueue）、出队（dequeue）P105" class="headerlink" title="入队（enqueue）、出队（dequeue）P105"></a>入队（enqueue）、出队（dequeue）<em>P105</em></h3><p>元素的插入与删除也是修改队列结构的两种主要方式，站在被操作对象的角度，分别称作入队、出队。</p>
+<h3 id="先进先出（first-in-first-out，FIFO）P105"><a href="#先进先出（first-in-first-out，FIFO）P105" class="headerlink" title="先进先出（first-in-first-out，FIFO）P105"></a>先进先出（first-in-first-out，FIFO）<em>P105</em></h3><p>由队列的约定和限制不难看出，与栈结构相反，队列中各对象的操作次序遵循先进先出（first-in-first-out）的规律，更早（晚）出队的元素应该为更早（晚）入队者，反之，更早（晚）入队者应更早（晚）出队。</p>
+]]></content>
+      <categories>
+        <category>-考研</category>
+      </categories>
+      <tags>
+        <tag>-datastructure</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《数据结构》关键词索引（三）</title>
+    <url>/2019/12/04/Key-Words-in-Data-Structure3/</url>
+    <content><![CDATA[<h1 id="第三章列表"><a href="#第三章列表" class="headerlink" title="第三章列表"></a>第三章列表</h1><a id="more"></a>
+<h3 id="列表（list）、位置（position）、寻位置访问（call-by-position）、链接（link）、寻链接访问（call-by-link）P66-列表的列表中的元素之间的逻辑结构是相邻的，但是元素之间的物理存储位置却不一定是相邻的，为了保证能够对列表中的元素进行访问，前驱和后继之间应该保持一种一种索引的关系，这种索引的关系就被抽象为位置，所以列表的访问方式称为寻位置访问，或者说可以把这种索引关系抽象为链接，那么那么列表的访问方式也可以被称作寻群链接访问。"><a href="#列表（list）、位置（position）、寻位置访问（call-by-position）、链接（link）、寻链接访问（call-by-link）P66-列表的列表中的元素之间的逻辑结构是相邻的，但是元素之间的物理存储位置却不一定是相邻的，为了保证能够对列表中的元素进行访问，前驱和后继之间应该保持一种一种索引的关系，这种索引的关系就被抽象为位置，所以列表的访问方式称为寻位置访问，或者说可以把这种索引关系抽象为链接，那么那么列表的访问方式也可以被称作寻群链接访问。" class="headerlink" title="列表（list）、位置（position）、寻位置访问（call-by-position）、链接（link）、寻链接访问（call-by-link）P66 列表的列表中的元素之间的逻辑结构是相邻的，但是元素之间的物理存储位置却不一定是相邻的，为了保证能够对列表中的元素进行访问，前驱和后继之间应该保持一种一种索引的关系，这种索引的关系就被抽象为位置，所以列表的访问方式称为寻位置访问，或者说可以把这种索引关系抽象为链接，那么那么列表的访问方式也可以被称作寻群链接访问。"></a>列表（list）、位置（position）、寻位置访问（call-by-position）、链接（link）、寻链接访问（call-by-link）<em>P66</em> 列表的列表中的元素之间的逻辑结构是相邻的，但是元素之间的物理存储位置却不一定是相邻的，为了保证能够对列表中的元素进行访问，前驱和后继之间应该保持一种一种索引的关系，这种索引的关系就被抽象为位置，所以列表的访问方式称为寻位置访问，或者说可以把这种索引关系抽象为链接，那么那么列表的访问方式也可以被称作寻群链接访问。</h3><h3 id="列表（list）P66"><a href="#列表（list）P66" class="headerlink" title="列表（list）P66"></a>列表（list）<em>P66</em></h3><p>列表的元素之间的逻辑上，虽然要求具有连续性，但是其物理存储地址上并没有要求有连续性，此所谓动态存储策略。</p>
+<h3 id="链表（linked-list）P66"><a href="#链表（linked-list）P66" class="headerlink" title="链表（linked list）P66"></a>链表（linked list）<em>P66</em></h3><p>链表就是一种典型的动态存储的结构，在动态存储结构中，数据被分为一个个节点，节点之间通过指针相互索引和访问，为了引入新的节点或者删除节点，只需要在局部调整少量几点之间的指针就可以了，相比起来，采用动态存储策略可以大大减少动态操作的成本。</p>
+<h3 id="列表（list）P67"><a href="#列表（list）P67" class="headerlink" title="列表（list）P67"></a>列表（list）<em>P67</em></h3><p>列表是一个集合，在这个集合中所有元素之间都具有一定的线性逻辑次序。列表结构是链表结构的一般化推广，其中的元素被称为节点，节点通过链接和通过链接和位置来指代。在元素中也可以定以前缺后继也直接前去直接后继，对于任意元素也定义有相对应的前缀后缀等子集。</p>
+<h3 id="头节点（header）、尾节点（trailer）、首节点（first-node）、末节点（last-node）、哨兵节点（sentinel-node）P71"><a href="#头节点（header）、尾节点（trailer）、首节点（first-node）、末节点（last-node）、哨兵节点（sentinel-node）P71" class="headerlink" title="头节点（header）、尾节点（trailer）、首节点（first node）、末节点（last node）、哨兵节点（sentinel node）P71"></a>头节点（header）、尾节点（trailer）、首节点（first node）、末节点（last node）、哨兵节点（sentinel node）<em>P71</em></h3><p>list对象内部组成中，头节点、尾节点始终存在，但对外并不可见。对外部可见的数据节点如果存在，则其中第一个和最后一个节点分别称为首节点和末节点。头节点紧邻于首节点之前，尾节点紧邻于末节点之后，这类经封装后对外部不可见的节点称为哨兵节点。</p>
+<h3 id="有序列表（sorted-list）P77"><a href="#有序列表（sorted-list）P77" class="headerlink" title="有序列表（sorted list）P77"></a>有序列表（sorted list）<em>P77</em></h3><p>若列表中所有节点的逻辑次序和其和其大小次序完全一致，则被称为有序列表。</p>
+<h3 id="插入排序（insertionsort）P79"><a href="#插入排序（insertionsort）P79" class="headerlink" title="插入排序（insertionsort）P79"></a>插入排序（insertionsort）<em>P79</em></h3><p>插入排序适用于任何序列结构，他的算法的大致思路可以概括为，始终将序列切分为有序的前缀和无序的后缀，将后缀中的首元素，放入有序的前缀中。插入排序就跟打牌一样，你先摸一张起来，就是牌堆里面的无序的牌，但是手里的牌是有序的，你每摸出一张无序的牌，就是相当于从它的后缀里面取出一个元素出来，你手里的牌就是前置里面有序的排，把每张牌都插入到你那个手中牌的正确的位置中，这就是插入排序。</p>
+<h3 id="选择排序（selectionsort）P80"><a href="#选择排序（selectionsort）P80" class="headerlink" title="选择排序（selectionsort）P80"></a>选择排序（selectionsort）<em>P80</em></h3><p>选择排序也适用于任何序列结构，他的算法的大致思路是也将训练分为无序的前缀和有序的后缀，在无序的前缀中选出最大的元素，放入后缀的开头。选择排序相当于相当于串手链，就是你手里面有一堆珠子放在一个盘子里面，然后你要用从大到小的顺序把那个珠子给串起来，你就在那一堆没有排序的前缀的中间选出一个最大的元素，然后放在那个绳子上面，在那个里面再选出最大的元素，然后再把它放在有序的后缀中，然后再选出前中最大的元素，再放入那个后缀中对应的位置。</p>
+]]></content>
+      <categories>
+        <category>-学习</category>
+      </categories>
+      <tags>
+        <tag>-data structure</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>毛中特第十章（五）</title>
     <url>/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%885%EF%BC%89/</url>
     <content><![CDATA[<h1 id="“五位一体”总布局之生态文明"><a href="#“五位一体”总布局之生态文明" class="headerlink" title="“五位一体”总布局之生态文明"></a>“五位一体”总布局之生态文明</h1><p>这一章的逻辑性不太强，随缘记吧。</p>
 <a id="more"></a>
@@ -17,7 +87,7 @@
       </tags>
   </entry>
   <entry>
-    <title>毛中特第十章（4）</title>
+    <title>毛中特第十章（四）</title>
     <url>/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%884%EF%BC%89/</url>
     <content><![CDATA[<h1 id="“五位一体”总布局之社会建设"><a href="#“五位一体”总布局之社会建设" class="headerlink" title="“五位一体”总布局之社会建设"></a>“五位一体”总布局之社会建设</h1><a id="more"></a>
 <h2 id="民生水平"><a href="#民生水平" class="headerlink" title="民生水平"></a>民生水平</h2><p>保障和改善民生是推动社会发展的根本目的<br>第1个是发展教育事业<br>第2个是就业质量和人民收入水平<br>第3是社会保障制度<br>第4式，脱贫攻坚战<br>第五是健康中国战略保持人民健康<br>注意第2个和第4个的区别，提高人民收入水平，是指平均的和整体的水平提高，脱贫攻坚战是指贫困人口。其实他们之间可能也还是有逻辑上面的串联吧，比如说你教育，教育搞得好，全民文化水平很高的话，就业质量就会提高，就业质量提高了，收入水平也就会提高，全体的收入水平提高之后就会，像北欧和北欧那边社会社会保障制度会很完善，然后再就是脱贫消除消除贫富差距之间的问题，最后就是，人民的身体健康很重要。</p>
@@ -32,7 +102,7 @@
       </tags>
   </entry>
   <entry>
-    <title>毛中特第十章（3）</title>
+    <title>毛中特第十章（三）</title>
     <url>/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%883%EF%BC%89/</url>
     <content><![CDATA[<h1 id="“五位一体”总布局之文化建设"><a href="#“五位一体”总布局之文化建设" class="headerlink" title="“五位一体”总布局之文化建设"></a>“五位一体”总布局之文化建设</h1><a id="more"></a>
 <h2 id="牢牢掌握意识形态工作领导权"><a href="#牢牢掌握意识形态工作领导权" class="headerlink" title="牢牢掌握意识形态工作领导权"></a>牢牢掌握意识形态工作领导权</h2><p>意识形态工作领导权是非常重要的，因为它决定了我们的旗帜道路和国家政治安全。上层建筑其实是统治阶级的上层建筑。怎么坚定坚定意识形态领导权呢？就是要坚持马克思主义指导地位，构建中国特色社会主义科学，坚持正确的舆论导向，营造良好的网络环境，落实意识形态责任制。</p>
@@ -156,22 +226,22 @@
 <h3 id="秩（rank）基于前驱的定义P29"><a href="#秩（rank）基于前驱的定义P29" class="headerlink" title="秩（rank）基于前驱的定义P29"></a>秩（rank）基于前驱的定义<em>P29</em></h3><p>各个元素的秩互异，且均为[0,n)之间的整数，若元素一的前区有r个则起秩就是r。</p>
 <h3 id="寻秩访问（call-by-rank）P29"><a href="#寻秩访问（call-by-rank）P29" class="headerlink" title="寻秩访问（call-by-rank）P29"></a>寻秩访问（call-by-rank）<em>P29</em></h3><p>反过来通过而亦可获得e=Vr，这是向量特有的元素访问方式，称作寻秩访问访问。就是通过r来访问向量中的元素。</p>
 <h3 id="构造函数（constructor）、初始化（initialization）P32"><a href="#构造函数（constructor）、初始化（initialization）P32" class="headerlink" title="构造函数（constructor）、初始化（initialization）P32"></a>构造函数（constructor）、初始化（initialization）<em>P32</em></h3><p>向量也是一种类，类在初始化为对象时，与所有对象一样向量在使用时也需要构造函数，对其进行初始化。</p>
-<h3 id="析构函数（destructor）、清理（cleanup）"><a href="#析构函数（destructor）、清理（cleanup）" class="headerlink" title="析构函数（destructor）、清理（cleanup）"></a>析构函数（destructor）、清理（cleanup）</h3><p>与所有对象一样，向量在不被需要的时候，也要调用构造析构函数对其进行清理，已释放被其占有的系统资源。</p>
-<h3 id="上溢"><a href="#上溢" class="headerlink" title="上溢"></a>上溢</h3><p>容量固定不变会导致无法加入更多的元素</p>
-<h3 id="装填因子"><a href="#装填因子" class="headerlink" title="装填因子"></a>装填因子</h3><p>向量实际规模（size）以及内部数组容量（capacity）的比值，称作装填因子，是衡量空间利用率的重要指标。扩充向量的原理是开辟一个新的向量空间，将原有的向量空间复制进去，且每次新扩充的向量空间是原来的两倍。</p>
-<h3 id="野指针（wild-point）"><a href="#野指针（wild-point）" class="headerlink" title="野指针（wild point）"></a>野指针（wild point）</h3><p>用数组来实现相应复制，空间扩充的时候新的向量，新的数组的指针与原来数组的指针是没有直接的关系的，这样原来指向原来数组的指针失效，变成了野指针。</p>
-<h3 id="分摊运行时间"><a href="#分摊运行时间" class="headerlink" title="分摊运行时间"></a>分摊运行时间</h3><p>可扩充向量的足够多次连续操作的时间分摊至每一次操作，如此平摊得到每单次操作的时间叫做分摊操作，分摊运行时间。平均运行时间是乘上概率的，是加权的平均时间。</p>
-<h3 id="下溢"><a href="#下溢" class="headerlink" title="下溢"></a>下溢</h3><p>在一系列操作中，若删除的次数远远大于插入的操作，这个时候，装填因子的数值可能会小于远远小于100%，甚至很接近于0，此时我们就称，数组发生了下溢。</p>
-<h3 id="无序向量"><a href="#无序向量" class="headerlink" title="无序向量"></a>无序向量</h3><p>仅支持对比（==、!=）而不支持比较的能量，被称为无序向量。</p>
-<h3 id="顺序查找"><a href="#顺序查找" class="headerlink" title="顺序查找"></a>顺序查找</h3><p>从元素末尾出发，逐一取出各个元素，并与目标元素进行比对，直到发现与之相等，或者将所有元素都比对之后，仍未发现与之相等，这种逐个对比，查找的方式被称为被称为顺序查找。<br>注意比较和对比的区别</p>
-<h3 id="输入敏感算法"><a href="#输入敏感算法" class="headerlink" title="输入敏感算法"></a>输入敏感算法</h3><p>规模相同，内部组成不同，渐进运算时间却有着本质的区别，这种算这种算法被称为输入敏感算法。</p>
-<h3 id="错误（error）、意外"><a href="#错误（error）、意外" class="headerlink" title="错误（error）、意外"></a>错误（error）、意外</h3><p>输入的参数超过接口范围的这类问题属于经典的错误或者意外，除了基于除此之外还要通过更加周全的设计来解决这个问题。</p>
-<h3 id="二分查找法"><a href="#二分查找法" class="headerlink" title="二分查找法"></a>二分查找法</h3><p>有序向量中间的元素，作为目标元素的试探对象，以最坏的情况来看，这个解决方法是最优的，因为。无论朝哪个迭代后无论朝哪个方向深入，其问题的规模都将缩小一半，这一策略被称为二分查找查找法。</p>
-<h3 id="在线算法和离线算法"><a href="#在线算法和离线算法" class="headerlink" title="在线算法和离线算法"></a>在线算法和离线算法</h3><p>根据输入形式的不同，排序算法可以分为在线算法和离线算法，离线排序是指在待排数据以批处理的方式整体给出。而在线算法是比如网络计算中，待排序的数据要实时生成，算法已经开始，待排的数据才传给算法。</p>
-<h3 id="复杂下界"><a href="#复杂下界" class="headerlink" title="复杂下界"></a>复杂下界</h3><p>一般在最坏情况下，得最低计算成本，即为该问题的复杂下界，一个问题，一旦在最坏的情况下达到这个下界，那么也意味着这已经是该问题的最优解。</p>
-<h3 id="比较树"><a href="#比较树" class="headerlink" title="比较树"></a>比较树</h3><p>内部的每一个节点都对应的是一次比较。左右分支对应的是比较的两种结果，和他下一步将要执行的方向。叶子节点（或叶子节点到根节点的路径）表示的是最终的输出和算法执行的过程，反过来，算法的每一运行过程，都对应于从根到某一叶子节点的路径。</p>
-<h3 id="CBA算法"><a href="#CBA算法" class="headerlink" title="CBA算法"></a>CBA算法</h3><p>无论什么算法，只要他的分支取决于变量或常量的比较结果，那么它的所有的可能的执行过程就可以用比较树来表示，这就是所谓的基于比较式算法，简称CBA式算法。</p>
-<h3 id="排序算法的稳定性"><a href="#排序算法的稳定性" class="headerlink" title="排序算法的稳定性"></a>排序算法的稳定性</h3><p>排序算法的稳定性是对排序算法更为细致的要求，简而言之就相同元素之间的相对位置在排序前后保持不变，反之，则是不稳定的排序算法。</p>
+<h3 id="析构函数（destructor）、清理（cleanup）P33"><a href="#析构函数（destructor）、清理（cleanup）P33" class="headerlink" title="析构函数（destructor）、清理（cleanup）P33"></a>析构函数（destructor）、清理（cleanup）<em>P33</em></h3><p>与所有对象一样，向量在不被需要的时候，也要调用构造析构函数对其进行清理，已释放被其占有的系统资源。</p>
+<h3 id="上溢（overflow）P33"><a href="#上溢（overflow）P33" class="headerlink" title="上溢（overflow）P33"></a>上溢（overflow）<em>P33</em></h3><p>容量固定不变会导致无法加入更多的元素</p>
+<h3 id="装填因子（loadfactor）P33"><a href="#装填因子（loadfactor）P33" class="headerlink" title="装填因子（loadfactor）P33"></a>装填因子（loadfactor）<em>P33</em></h3><p>向量实际规模（size）以及内部数组容量（capacity）的比值，称作装填因子，是衡量空间利用率的重要指标。扩充向量的原理是开辟一个新的向量空间，将原有的向量空间复制进去，且每次新扩充的向量空间是原来的两倍。</p>
+<h3 id="野指针（wild-point）P34"><a href="#野指针（wild-point）P34" class="headerlink" title="野指针（wild point）P34"></a>野指针（wild point）<em>P34</em></h3><p>用数组来实现相应复制，空间扩充的时候新的向量，新的数组的指针与原来数组的指针是没有直接的关系的，这样原来指向原来数组的指针失效，变成了野指针。</p>
+<h3 id="分摊运行时间（amortized-running-time）P35"><a href="#分摊运行时间（amortized-running-time）P35" class="headerlink" title="分摊运行时间（amortized running time）P35"></a>分摊运行时间（amortized running time）<em>P35</em></h3><p>可扩充向量的足够多次连续操作的时间分摊至每一次操作，如此平摊得到每单次操作的时间叫做分摊操作，分摊运行时间。平均运行时间是乘上概率的，是加权的平均时间。</p>
+<h3 id="下溢（underflow-P36"><a href="#下溢（underflow-P36" class="headerlink" title="下溢（underflow)P36"></a>下溢（underflow)<em>P36</em></h3><p>在一系列操作中，若删除的次数远远大于插入的操作，这个时候，装填因子的数值可能会小于远远小于100%，甚至很接近于0，此时我们就称，数组发生了下溢。</p>
+<h3 id="无序向量-unsorted-vector-P39"><a href="#无序向量-unsorted-vector-P39" class="headerlink" title="无序向量(unsorted vector)P39"></a>无序向量(unsorted vector)<em>P39</em></h3><p>仅支持对比（==、!=）而不支持比较的能量，被称为无序向量。</p>
+<h3 id="顺序查找-sequential-search-P39"><a href="#顺序查找-sequential-search-P39" class="headerlink" title="顺序查找(sequential search)P39"></a>顺序查找(sequential search)<em>P39</em></h3><p>从元素末尾出发，逐一取出各个元素，并与目标元素进行比对，直到发现与之相等，或者将所有元素都比对之后，仍未发现与之相等，这种逐个对比，查找的方式被称为被称为顺序查找。<br>注意比较和对比的区别</p>
+<h3 id="输入敏感算法-input-sensitive-P39"><a href="#输入敏感算法-input-sensitive-P39" class="headerlink" title="输入敏感算法(input sensitive)P39"></a>输入敏感算法(input sensitive)<em>P39</em></h3><p>规模相同，内部组成不同，渐进运算时间却有着本质的区别，这种算这种算法被称为输入敏感算法。</p>
+<h3 id="错误（error）、意外-expection-P42"><a href="#错误（error）、意外-expection-P42" class="headerlink" title="错误（error）、意外(expection)P42"></a>错误（error）、意外(expection)<em>P42</em></h3><p>输入的参数超过接口范围的这类问题属于经典的错误或者意外，除了基于除此之外还要通过更加周全的设计来解决这个问题。</p>
+<h3 id="二分查找法-binary-search-P49"><a href="#二分查找法-binary-search-P49" class="headerlink" title="二分查找法(binary search)P49"></a>二分查找法(binary search)<em>P49</em></h3><p>有序向量中间的元素，作为目标元素的试探对象，以最坏的情况来看，这个解决方法是最优的，因为。无论朝哪个迭代后无论朝哪个方向深入，其问题的规模都将缩小一半，这一策略被称为二分查找查找法。</p>
+<h3 id="在线算法和离线算法-offline-algorithm-online-algorithm-P57"><a href="#在线算法和离线算法-offline-algorithm-online-algorithm-P57" class="headerlink" title="在线算法和离线算法(offline algorithm)(online algorithm)P57"></a>在线算法和离线算法(offline algorithm)(online algorithm)<em>P57</em></h3><p>根据输入形式的不同，排序算法可以分为在线算法和离线算法，离线排序是指在待排数据以批处理的方式整体给出。而在线算法是比如网络计算中，待排序的数据要实时生成，算法已经开始，待排的数据才传给算法。</p>
+<h3 id="复杂下界-lower-bound）P58"><a href="#复杂下界-lower-bound）P58" class="headerlink" title="复杂下界(lower bound）P58"></a>复杂下界(lower bound）<em>P58</em></h3><p>一般在最坏情况下，得最低计算成本，即为该问题的复杂下界，一个问题，一旦在最坏的情况下达到这个下界，那么也意味着这已经是该问题的最坏情况下的最优解。</p>
+<h3 id="比较树（comparison-tree）P58"><a href="#比较树（comparison-tree）P58" class="headerlink" title="比较树（comparison tree）P58"></a>比较树（comparison tree）<em>P58</em></h3><p>内部的每一个节点都对应的是一次比较。左右分支对应的是比较的两种结果，和他下一步将要执行的方向。叶子节点（或叶子节点到根节点的路径）表示的是最终的输出和算法执行的过程，反过来，算法的每一运行过程，都对应于从根到某一叶子节点的路径。</p>
+<h3 id="基于比较式的算法CBA算法（comparison-based-algorithm）P58"><a href="#基于比较式的算法CBA算法（comparison-based-algorithm）P58" class="headerlink" title="基于比较式的算法CBA算法（comparison-based algorithm）P58"></a>基于比较式的算法CBA算法（comparison-based algorithm）<em>P58</em></h3><p>无论什么算法，只要他的分支取决于变量或常量的比较结果，那么它的所有的可能的执行过程就可以用比较树来表示，这就是所谓的基于比较式算法，简称CBA式算法。</p>
+<h3 id="排序算法的稳定性（unstable-algorithm）P61"><a href="#排序算法的稳定性（unstable-algorithm）P61" class="headerlink" title="排序算法的稳定性（unstable algorithm）P61"></a>排序算法的稳定性（unstable algorithm）<em>P61</em></h3><p>排序算法的稳定性是对排序算法更为细致的要求，简而言之就相同元素之间的相对位置在排序前后保持不变，反之，则是不稳定的排序算法。</p>
 ]]></content>
       <categories>
         <category>-学习</category>
