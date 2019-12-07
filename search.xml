@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Key_Words_in_Date_Structure5</title>
+    <title>C++基础知识（一）</title>
+    <url>/2019/12/07/C-1/</url>
+    <content><![CDATA[<h1 id="第7章-类的继承与派生"><a href="#第7章-类的继承与派生" class="headerlink" title="第7章 类的继承与派生"></a>第7章 类的继承与派生</h1><p>C++中有一个很重要的思想就是类的思想，这是它与面向过程的编程思想中很大的不同。它可以通过抽象和分类模拟和实现生活中的一些东西，类与对象的关系恰当地反应了个体与同类群体之间共同特征之间的关系。<br>但是我们进一步的观察这个世界的时候会发现，不同的事物之间不是独立的，往往是相互关联的，比如父亲和孩子，它们之间有不同的地方也有相似的地方，并且两者之间有一种继承的关系。自行车和汽车有共同的一个更抽象的概念——交通工具类，但是它们之间的形态、功能又各有各的不同。<br>C++中就为我们提供了一种用来描述这种关系的方法——类的派生和继承。在父类上提供更抽象、更基础的定义，在子类上提供更具体、更详细的定义。<br>类的派生和继承有什么样的作用和好出呢？第一是能够客观的描述上述在现实生活中存在的类之间的一种抽象的联系和关系；第二是从功利的方面来将，可以实现代码的重用。在别人已经研究的类的基础上对代码进行扩充，可以大大减少我们编写代码的量。</p>
+<ul>
+<li><p>派生新类的过程包括三个步骤：<br>吸收已有类的成员<br>调整已有类的成员<br>添加新的成员</p>
+</li>
+<li><p>本章围绕派生过程将讨论<br>不同继承方式下基类成员的访问控制问题、添加构造和析构函数<br>接着将讨论在更为复杂的继承关系中，类成员的唯一标示和访问问题<br>最后给出两个类的继承的实例：主选高斯消去法求线性方程组和一个公司的人员管理系统</p>
+<a id="more"></a>
+
+
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>珂的恋爱日记（1）</title>
+    <url>/2019/12/07/love-diary/</url>
+    <content><![CDATA[<p>算起来到考研的那天，我就和胤在一起5个月了。回想起来这五个月我真的觉得自己是何其的幸运，何德何能捡到像你这样的一个宝贝。</p>
+<a id="more"></a>
+<p>你长着一双猫一样狡黠的眼睛，瞳色浅，眼型细长。配上巴掌大的小脸，流畅的下颚线。活脱脱一个大型猫科动物系男孩，又飒又冷又酷。只是会在面对我的时候笑得像个傻子，感觉又憨厚又慈祥。我最喜欢的就是你的嘴，厚薄适中，又软又润，好亲；唇峰和唇珠圆润，又纯又欲，勾人。</p>
+<p>我的胤真真是个迷死人的男人。<br>你有着混合的特质，每一种特质又恰如其分地恰到好处。好比你的性格真的很man很男人，但是一点都不大男子主义，反而非常温柔细腻，每次都能很敏锐地察觉到我的情绪变化，包容我，爱护我。我在高中的时候读到过一个词叫做“铁血与柔情”，现在你完美地诠释了我少女时代对这个词所有的幻想。你有时候很霸道，淡定的一句命令好像有不可抗拒的魔力，我的心就愣愣地被他给牵走了，就算是打电话的时候说一句“把灯关了”，我都觉得性感到爆炸。在和你的日常里，我们多半是扮演着爸爸和女儿的角色，纵容我无聊幼稚的嘻嘻哈哈，撒个娇就把我揉进怀里，睡不着就唱歌哄我睡觉，温柔地抚摸我的头发。我一直记得你跟我哥他们喝醉的那一次，卸下了平日所有保护你的铠甲，看到了你最最柔情的一面，原来平常在我眼里再顶天立地的大男人大英雄也有需要我的安慰和保护的一面啊，那一刻我的心里真的是写满了心疼。你也有幼稚的一面，像小学生表达喜欢一个女孩一样地欺负我，也会做一些很傻屌的事情逗我开心。表面看起来痞痞的但是三观超正，我真的百分之一百地信任你，你就是我的归宿，只要有你在我就能心安。</p>
+<p>异地很难，但我们不会觉得辛苦。电话是每天都要打无数个的，睡前打电话已经成了一种不变的默契和习惯。几次你醉得不省人事还是会在睡觉前给我打电话入睡，嘴里还胡乱的喊着我的名字。每个星期一个298公里的来回，多数时候早上五点多他就要起来赶回去上班。甚至是晚上见面，早上就要分别了，我也会顶着很大的考研压力去找你。我们都是在必须做的事情里尽可能地给对方最多的陪伴，什么都是值得的，每个人都是在兵荒马乱中成长，你的存在让我更坚定了自己的目标。</p>
+<p>我和我的胤有好多好多的计划，我们要一起去拉萨，去走过你青春时走过的路，体验你生命里没有我的那一部分。我们要过一屋两人三餐四季的日子，晚饭过后窝在沙发上撸猫看剧，在楼下小区手牵着手散步，在雨滴滴嗒嗒的周末睡到自然醒然后来一顿美美的早午饭。我们要去拍结婚登记照，要在一辈子最美好的年纪留下痕迹，然后在头发花白，牙齿掉光的时候自豪地对孙子孙女儿说：“看你爷爷，当年多帅，你奶奶，年轻的时候多美。”</p>
+<p>回想起我们认识的过程，我还是会觉得难以置信，我是多幸运才会有这么好的男朋友，真的说不清是冥冥中的注定还是错综复杂的机缘巧合。我微博的置顶一直是你在微信上拍给我的第一张照片（但是我现在的微博会员过期了……）不可否认的是，事事难料，我会变，你会变，感情也会变，这条置顶的微博是在提醒我对你的初心，我会一直记住这一份真挚诚恳的感情。</p>
+<p>希望以后的每一天里都有你。Love you three thousands.</p>
+]]></content>
+      <categories>
+        <category>-生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>数据结构关键词索引（五）</title>
     <url>/2019/12/06/Key-Words-in-Date-Structure5/</url>
     <content><![CDATA[<h1 id="第五章-二叉树"><a href="#第五章-二叉树" class="headerlink" title="第五章 二叉树"></a>第五章 二叉树</h1><a id="more"></a>
 <h3 id="线性结构（linear-structure）P110"><a href="#线性结构（linear-structure）P110" class="headerlink" title="线性结构（linear structure）P110"></a>线性结构（linear structure）<em>P110</em></h3><p>元素之间存在一个自然的线性次序，故它们都属于所谓的线性结构。</p>
@@ -16,7 +47,16 @@
 <h3 id="有序二叉树（ordered-binary-tree）P111"><a href="#有序二叉树（ordered-binary-tree）P111" class="headerlink" title="有序二叉树（ordered binary tree）P111"></a>有序二叉树（ordered binary tree）<em>P111</em></h3><p>在二叉树中，同一父节点的孩子都可以以左、右相互区分——此时，亦称作有序二叉树。</p>
 <h3 id="真二叉树（proper-binary-tree）P111"><a href="#真二叉树（proper-binary-tree）P111" class="headerlink" title="真二叉树（proper binary tree）P111"></a>真二叉树（proper binary tree）<em>P111</em></h3><p>不含一度节点的二叉树称作真二叉树。</p>
 <h3 id="多叉树（k-ary-tree）P112"><a href="#多叉树（k-ary-tree）P112" class="headerlink" title="多叉树（k-ary tree）P112"></a>多叉树（k-ary tree）<em>P112</em></h3><p>一般地，树中各节点的孩子数目并不确定，每个节点的孩子均不超过k个的有根树，称作k叉树。</p>
-<h3 id="有序多叉树（odered-tree）P113"><a href="#有序多叉树（odered-tree）P113" class="headerlink" title="有序多叉树（odered tree）P113"></a>有序多叉树（odered tree）<em>P113</em></h3>]]></content>
+<h3 id="有序树（odered-tree）P113"><a href="#有序树（odered-tree）P113" class="headerlink" title="有序树（odered tree）P113"></a>有序树（odered tree）<em>P113</em></h3><p>在树中，同一父亲节点的孩子都可以相互按次序区分——此时，亦称作有序树。</p>
+<h3 id="编码（encoding）、解码（decoding）P114"><a href="#编码（encoding）、解码（decoding）P114" class="headerlink" title="编码（encoding）、解码（decoding）P114"></a>编码（encoding）、解码（decoding）<em>P114</em></h3><p>在加载到信道上之前，信息被转换成为二进制形式的过程称作编码，反之，经信道抵达目标后再由二进制编码恢复原始信息的过程叫做解码。</p>
+<h3 id="前缀无歧义编码（prefix-free-code）P115"><a href="#前缀无歧义编码（prefix-free-code）P115" class="headerlink" title="前缀无歧义编码（prefix-free code）P115"></a>前缀无歧义编码（prefix-free code）<em>P115</em></h3><p>只要各字符的编码串互不为前缀，则即便出现无法解码的错误，也绝不会出现歧义。</p>
+<h3 id="根通路串（root-path-string）P116"><a href="#根通路串（root-path-string）P116" class="headerlink" title="根通路串（root path string）P116"></a>根通路串（root path string）<em>P116</em></h3><p>任一编码方案都可描述为一颗二叉树：从根节点出发，每次向左（右）都对应一个0（1）比特位，由从根节点到每个节点的唯一通路，可以为各节点v赋予一个互异的二进制串，称作根通路串，记作rps（v），rps（v）= depth（v），就是v 的深度。</p>
+<h3 id="二叉树节点（binary-tree-node）P117"><a href="#二叉树节点（binary-tree-node）P117" class="headerlink" title="二叉树节点（binary tree node）P117"></a>二叉树节点（binary tree node）<em>P117</em></h3><p>作为图的特殊形式，二叉树的基本组成单位是节点与边；作为数据结构，其基本的组成实体是二叉树节点，而边则对应于节点之间的相互引用。</p>
+<h3 id="广度优先遍历、层序遍历（level-order-traversal）P133"><a href="#广度优先遍历、层序遍历（level-order-traversal）P133" class="headerlink" title="广度优先遍历、层序遍历（level-order traversal）P133"></a>广度优先遍历、层序遍历（level-order traversal）<em>P133</em></h3><p>确定节点访问次序的原则可以概括为“先上后下，先左后右”，先访问根节点，再访问根节点的左孩子、右孩子，然后是左孩子的左孩子，左孩子的右孩子，右孩子的左孩子，右孩子的右孩子……以此类推。</p>
+<h3 id="完全二叉树（complete-binary-tree）P135"><a href="#完全二叉树（complete-binary-tree）P135" class="headerlink" title="完全二叉树（complete binary tree）P135"></a>完全二叉树（complete binary tree）<em>P135</em></h3><p>在层序遍历算法的每次迭代中，必有一个节点出队（而且不再入队）故累计恰好迭代n次，然而每次迭代中入队节点的数目并不确定。若在对某棵二叉树的层序遍历中，前「n/2」次迭代中都有左孩子入队，且前「n/2」-1次迭代中都有右孩子入队，则称之为完全二叉树。其一般性的宏观拓扑结构特征：叶节点只能出现在最底部的两层，且最底层叶节点均处于次底层叶节点的左侧。</p>
+<h3 id="满二叉树（full-binary-tree）P135"><a href="#满二叉树（full-binary-tree）P135" class="headerlink" title="满二叉树（full binary tree）P135"></a>满二叉树（full binary tree）<em>P135</em></h3><p>完全二叉树的一种特列是，所有叶节点同处于最底层（非底层节点均为内部节点）。根据数学归纳法，每一层的节点数都应达到饱和，故将其称为满二叉树。</p>
+<h3 id="Huffman编码树（Huffman-coding-tree）P143"><a href="#Huffman编码树（Huffman-coding-tree）P143" class="headerlink" title="Huffman编码树（Huffman coding tree）P143"></a>Huffman编码树（Huffman coding tree）<em>P143</em></h3><p>首先，对应于∑中的每一个字符，分别建立一个单个节点的树，其权重取作该字符的频率，这｜∑｜棵树构成了一个森林。接下来在ξ中选取权重最小的两棵树，创建一个新的节点，作为其左右子树，如此将它作为一棵新的更高的树，其权重为左右叶节点的和。这个新的树等效地视作一个字符，称作超字符。<br>这一选取、合并的过程反复迭代进行，每一次迭代ξ中的树就减少一棵，当最终ξ仅包含一棵树的时候，就形成了一棵最优带权编码树，构造过程随即完成。<br>以上构造过程被称为Huffman编码算法，由其生成的编码树称作Huffman编码树。需强调的是，Huffman编码树只是最优带权编码树中的一棵。</p>
+]]></content>
       <categories>
         <category>-考研</category>
       </categories>
@@ -25,7 +65,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Key_Words_in_Date_Structure4</title>
+    <title>《数据结构》关键词索引（四）</title>
     <url>/2019/12/06/Key-Words-in-Date-Structure4/</url>
     <content><![CDATA[<h1 id="第四章栈与队列"><a href="#第四章栈与队列" class="headerlink" title="第四章栈与队列"></a>第四章栈与队列</h1><a id="more"></a>
 <h3 id="栈（stack）P86"><a href="#栈（stack）P86" class="headerlink" title="栈（stack）P86"></a>栈（stack）<em>P86</em></h3><p>栈是存放数据对象的一种特殊容器，其中的数据元素按线性的逻辑次序排列，故可以定义首、末元素。栈结构支持插入和删除操作，但仅限于某特定的一段，禁止操作的一端被称作盲端。</p>
@@ -198,7 +238,7 @@
   <entry>
     <title>如何记忆大段文字并在考试时信手引用？</title>
     <url>/2019/12/03/demo/</url>
-    <content><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg" alt></p>
+    <content><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg" alt=""></p>
 <a id="more"></a>
 <p><strong>记忆的一个重要前提：考试要求是对观点能够信手拈来，而论据和观点本身化为己用，并不是一字不差地誊写在卷面上。</strong></p>
 <h4 id="不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆"><a href="#不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆" class="headerlink" title="不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆"></a>不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆</h4><h4 id="如何进行精细加工？"><a href="#如何进行精细加工？" class="headerlink" title="如何进行精细加工？"></a>如何进行精细加工？</h4><p>记忆书本原有的关键词、知识点等“点”信息，而后自己去连“点”成“线”，把这一块的“点”信息串成有逻辑的内容。<br>怎么联系？记住关键词和知识点之后，记关系：并列？因果？时间？空间？人物？然后合上书本，用自己的逻辑语言系统把关键词串起来。</p>
@@ -217,7 +257,7 @@
 <p>“  你是我新奇的无尽宝藏<br>    是拂去所有枝叶的百分百现实  ”<br>/ 高村光太郎</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p><img src="https://wx1.sinaimg.cn/mw690/532c5244gy1g95ux4ffw5j20u01407ql.jpg" alt></p>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p><img src="https://wx1.sinaimg.cn/mw690/532c5244gy1g95ux4ffw5j20u01407ql.jpg" alt=""></p>
 <h3 id="序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28"><a href="#序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28" class="headerlink" title="序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28"></a>序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）<em>P28</em></h3><p>最基本的线性结构被称为序列，根据数据项的逻辑次序和物理存贮次序是否吻合可以讲其分为向量和列表。在向量中数据项的逻辑次序和物理储存地址的次序相对应，此时的逻辑次序被称为秩。在列表中数据项的逻辑次序和物理存储地址的次序不一定相对应，其用间接定址的方式通过封装后的位置相互引用。</p>
 <h3 id="数组（array）P28"><a href="#数组（array）P28" class="headerlink" title="数组（array）P28"></a>数组（array）<em>P28</em></h3><p>若集合S中有n个元素，且元素之间存在着一定的次序，则可以把该数组存储在以A[]为首起始地址的一段连续的存储空间中，并且把他们统称为数组，通常以A[]作为该数组的标识。</p>
 <h3 id="前驱（predecessor）、后继（successor）、直接前驱（immediate-predecessor）、直接后继（immediate-predecessor）、前缀（prefix）、后缀（sffix）P28"><a href="#前驱（predecessor）、后继（successor）、直接前驱（immediate-predecessor）、直接后继（immediate-predecessor）、前缀（prefix）、后缀（sffix）P28" class="headerlink" title="前驱（predecessor）、后继（successor）、直接前驱（immediate predecessor）、直接后继（immediate predecessor）、前缀（prefix）、后缀（sffix）P28"></a>前驱（predecessor）、后继（successor）、直接前驱（immediate predecessor）、直接后继（immediate predecessor）、前缀（prefix）、后缀（sffix）<em>P28</em></h3><p>对于任何0&lt;=i&lt;j&lt;=n，A[i]都是A[j]前驱。A[j]都是A[i]的后期。特别的，对于任何i&gt;=1，A[i-1]称作A[i]的直接前驱，对任何i&lt;=n-2，A[i+1]称作A [i]的直接后继。任意元素的所有前驱统称为该元素的前缀，所有后继统称为该元素的后缀。也就是说前驱是指单个元素，后继也是指单个元素，在他前面就是他的前驱在他后面就是他的后继，然后在他前面一个的叫做直接前驱，在他后面一个的叫做直接后继，它的前驱构成的集合叫做前缀，后继构成的集合叫做后缀。</p>

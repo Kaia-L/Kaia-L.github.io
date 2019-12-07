@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-07T04:09:46.689Z</updated>
+  <updated>2019-12-07T06:31:27.521Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -17,11 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Key_Words_in_Date_Structure5</title>
+    <title>C++基础知识（一）</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/</id>
+    <published>2019-12-07T06:03:13.000Z</published>
+    <updated>2019-12-07T06:31:27.521Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;第7章-类的继承与派生&quot;&gt;&lt;a href=&quot;#第7章-类的继承与派生&quot; class=&quot;headerlink&quot; title=&quot;第7章 类的继承与派生&quot;&gt;&lt;/a&gt;第7章 类的继承与派生&lt;/h1&gt;&lt;p&gt;C++中有一个很重要的思想就是类的思想，这是它与面向过程的编程思想中很大的不同。它可以通过抽象和分类模拟和实现生活中的一些东西，类与对象的关系恰当地反应了个体与同类群体之间共同特征之间的关系。&lt;br&gt;但是我们进一步的观察这个世界的时候会发现，不同的事物之间不是独立的，往往是相互关联的，比如父亲和孩子，它们之间有不同的地方也有相似的地方，并且两者之间有一种继承的关系。自行车和汽车有共同的一个更抽象的概念——交通工具类，但是它们之间的形态、功能又各有各的不同。&lt;br&gt;C++中就为我们提供了一种用来描述这种关系的方法——类的派生和继承。在父类上提供更抽象、更基础的定义，在子类上提供更具体、更详细的定义。&lt;br&gt;类的派生和继承有什么样的作用和好出呢？第一是能够客观的描述上述在现实生活中存在的类之间的一种抽象的联系和关系；第二是从功利的方面来将，可以实现代码的重用。在别人已经研究的类的基础上对代码进行扩充，可以大大减少我们编写代码的量。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;派生新类的过程包括三个步骤：&lt;br&gt;吸收已有类的成员&lt;br&gt;调整已有类的成员&lt;br&gt;添加新的成员&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;本章围绕派生过程将讨论&lt;br&gt;不同继承方式下基类成员的访问控制问题、添加构造和析构函数&lt;br&gt;接着将讨论在更为复杂的继承关系中，类成员的唯一标示和访问问题&lt;br&gt;最后给出两个类的继承的实例：主选高斯消去法求线性方程组和一个公司的人员管理系统&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>珂的恋爱日记（1）</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/love-diary/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/love-diary/</id>
+    <published>2019-12-07T05:43:59.000Z</published>
+    <updated>2019-12-07T11:10:58.576Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;算起来到考研的那天，我就和胤在一起5个月了。回想起来这五个月我真的觉得自己是何其的幸运，何德何能捡到像你这样的一个宝贝。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="-生活" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构关键词索引（五）</title>
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure5/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure5/</id>
     <published>2019-12-06T13:07:00.000Z</published>
-    <updated>2019-12-07T04:09:46.689Z</updated>
+    <updated>2019-12-07T05:57:22.396Z</updated>
     
     <summary type="html">
     
@@ -38,11 +78,11 @@
   </entry>
   
   <entry>
-    <title>Key_Words_in_Date_Structure4</title>
+    <title>《数据结构》关键词索引（四）</title>
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure4/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure4/</id>
     <published>2019-12-06T11:06:40.000Z</published>
-    <updated>2019-12-06T13:06:28.456Z</updated>
+    <updated>2019-12-07T05:46:51.987Z</updated>
     
     <summary type="html">
     
@@ -233,7 +273,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg&quot; alt&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
