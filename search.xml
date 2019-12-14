@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Key-Words-in-Date-Structure6</title>
+    <title>数据结构关键词索引（八）</title>
+    <url>/2019/12/13/Key-Words-in-Date-Structure8/</url>
+    <content><![CDATA[<h1 id="第八章-高级搜索树"><a href="#第八章-高级搜索树" class="headerlink" title="第八章 高级搜索树"></a>第八章 高级搜索树</h1><a id="more"></a>
+<h3 id="持久性结构（persistent-structure）P204"><a href="#持久性结构（persistent-structure）P204" class="headerlink" title="持久性结构（persistent structure）P204"></a>持久性结构（persistent structure）<em>P204</em></h3><p>红黑树不仅能够保持全树的适度平衡，从而有效地控制单次操作的时间成本，而且可以将每次重平衡过程执行的结构调整，控制在常数次以内。后者也是该树有别于其它变种的关键特性，它不仅保证了红黑树更高的实际计算效率，更为持久性结构之类高级数据结构的实现，提供了直接而有效的方法。</p>
+<h3 id="伸展树（splay-tree）P204"><a href="#伸展树（splay-tree）P204" class="headerlink" title="伸展树（splay tree）P204"></a>伸展树（splay tree）<em>P204</em></h3><p>伸展树也是平衡二叉搜索树的一种形式，相对于前者，后者的实现更为简洁。伸展树无需时刻都严格地保持全树的平衡，但却能够在任何足够长的真实操作序列中，保持分摊意义上的高效率。伸展树也不需要对基本的二叉树节点结构，做任何附加的要求或改动，更不需要记录平衡因子或高度之类的额外信息，故适用于更广的范围。</p>
+<h3 id="数据的局部性（data-locality）P204"><a href="#数据的局部性（data-locality）P204" class="headerlink" title="数据的局部性（data locality）P204"></a>数据的局部性（data locality）<em>P204</em></h3><p>1）刚被访问过的元素，极有可能在不久之后再次被访问到。<br>2）将被访问的下一元素，极有可能就处于不久之前被访问过的某个元素的附近<br>就二叉搜索树而言，数据局部性具体表现为：<br>1）刚刚被访问过的节点，极有可能在不久之后再次被访问到<br>2）将被访问的下一节点，极有可能就处于不久之前被访问过的某个节点的附近</p>
+<h3 id="伸展（splaying）P205"><a href="#伸展（splaying）P205" class="headerlink" title="伸展（splaying）P205"></a>伸展（splaying）<em>P205</em></h3><p>没访问过一个节点之后，随即反复地以它的父节点为轴，经适当的旋转将其提升一层，直至最终称为树根。随着节点的逐层上升，两侧子树的结构也不断调整。故这一过程也形象地称作伸展，而采用这一调整策略的二叉搜索树也因此得名。</p>
+]]></content>
+      <tags>
+        <tag>-datastructure</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构关键词索引（七）</title>
+    <url>/2019/12/13/Key-Words-in-Date-Structure7/</url>
+    <content><![CDATA[<h1 id="第七章-搜索树"><a href="#第七章-搜索树" class="headerlink" title="第七章 搜索树"></a>第七章 搜索树</h1><a id="more"></a>
+<h3 id="搜索（search）、词条（entry）、关键码（key）P183"><a href="#搜索（search）、词条（entry）、关键码（key）P183" class="headerlink" title="搜索（search）、词条（entry）、关键码（key）P183"></a>搜索（search）、词条（entry）、关键码（key）<em>P183</em></h3><p>所谓的查找或搜索，指从一组数据对象中找出符合特定条件者，这是构建算法的一种基本而重要的操作。其中的数据对象，统一地表示和实现为词条的形式，不同词条之间，依照各自的关键码彼此区分。</p>
+<h3 id="寻关键码访问（call-by-key）P183"><a href="#寻关键码访问（call-by-key）P183" class="headerlink" title="寻关键码访问（call-by-key）P183"></a>寻关键码访问（call-by-key）<em>P183</em></h3><p>与此前的“寻秩访问”和“寻位置访问”等完全不同，这一新的访问方式，与数据对象的物理位置或逻辑次序均无关，实际上，查找的过程与结果，仅仅取决于目标对象的关键码，故这种方式亦称作寻关键码访问。</p>
+<h3 id="二叉搜索树（binary-search-tree）P184"><a href="#二叉搜索树（binary-search-tree）P184" class="headerlink" title="二叉搜索树（binary search tree）P184"></a>二叉搜索树（binary search tree）<em>P184</em></h3><p>在所谓的二叉搜索树中，处处都满足顺序性：任一节点r的左（右）子树中，所有节点（若存在）均不大于（不小于）r。任一节点r的左（右）子树中，所有节点（若存在）均小于（大于）r。任何一棵二叉树是二叉搜索树，当且仅当其中序遍历序列单调非降。</p>
+<h3 id="随机生成（randomly-generated）P191"><a href="#随机生成（randomly-generated）P191" class="headerlink" title="随机生成（randomly generated）P191"></a>随机生成（randomly generated）<em>P191</em></h3><p>不妨设各节点对应于n个互异关键码{e1,e2,…,en}。于是按照每一排列：<br>σ = {ei1,ei2,…,ein}<br>只要从空树开始，通过依次执行insert（eik），即可得到这n个关键码的一棵二叉搜索树T（σ）。与随机排列σ如此对应的二叉搜索树T（σ），称作由σ“随机生成”。</p>
+<h3 id="随机组成（"><a href="#随机组成（" class="headerlink" title="随机组成（"></a>随机组成（</h3><p>randomly composed）<em>P191</em><br>另一种随机策略是，假定n个互异节点同时给定，然后在遵守顺序性的前提下，随机确定它们之间的拓扑联系。如此，称二叉搜索树由这组节点“随机组成”。</p>
+<h3 id="平衡二叉树（balanced-binary-search-tree，BBST）P192"><a href="#平衡二叉树（balanced-binary-search-tree，BBST）P192" class="headerlink" title="平衡二叉树（balanced binary search tree，BBST）P192"></a>平衡二叉树（balanced binary search tree，BBST）<em>P192</em></h3><p>在渐进意义下适当放松标准之后的平衡，称作适度平衡。<br>比如，将树高限制为“渐进地不超过O（logn），则下节将要介绍的AVL树，以及下一章将要介绍的伸展树、红黑树、kd-<br>树等，都属于适度平衡。这些变种，因此也都可归于平衡二叉搜索树之列。</p>
+<h3 id="AVL树（AVL-tree）P194"><a href="#AVL树（AVL-tree）P194" class="headerlink" title="AVL树（AVL tree）P194"></a>AVL树（AVL tree）<em>P194</em></h3><p>通过合理设定适度平衡的标准，并借助等价变换，AVL树可以实现近乎理想的平衡。在渐进意义下，AVL树可以始终将其高度控制在O（logn）以内，从而保证每次查找、插入或删除操作，均可在O（logn）的时间内完成。</p>
+<h3 id="平衡因子（balance-factor）P194"><a href="#平衡因子（balance-factor）P194" class="headerlink" title="平衡因子（balance factor）P194"></a>平衡因子（balance factor）<em>P194</em></h3><p>任一节点v的平衡因子定义为“其左、右子树的高度差”，即<br>    balFac（v） =  height（lc（v））-height（rc（v））<br>本书中空树高度取-1，单节点子树（叶节点）高度取0，与以上定义没有冲突，所谓AVL树，即平衡因子受限的二叉搜索树——其中各节点平衡因子的绝对值均不超过1。</p>
+]]></content>
+      <tags>
+        <tag>-datastructure</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构关键词索引（六）</title>
     <url>/2019/12/11/Key-Words-in-Date-Structure6/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="第六章-图"><a href="#第六章-图" class="headerlink" title="第六章 图"></a>第六章 图</h1><a id="more"></a>
+<h3 id="非线性结构（non-linear-structure）P150"><a href="#非线性结构（non-linear-structure）P150" class="headerlink" title="非线性结构（non-linear structure）P150"></a>非线性结构（non-linear structure）<em>P150</em></h3><p>相互之间均可能存在二元关系的一组对象，从数据结构的角度分类，属于非线性结构。</p>
+<h3 id="图（graph）、顶点（vertex）、边（edge）P150"><a href="#图（graph）、顶点（vertex）、边（edge）P150" class="headerlink" title="图（graph）、顶点（vertex）、边（edge）P150"></a>图（graph）、顶点（vertex）、边（edge）<em>P150</em></h3><p>所谓的图，可以描述为G=（V，E），其中集合V中的元素称为顶点，集合E中的元素分别对应于V中的某一对顶点（v，u），表示它们之间存在的某种关系，称为边。</p>
+<h3 id="无向边（undirected-edge）、有向边（directed-edge）P150起点（origin）、尾顶点（tail）、终点（destination）、头顶点（head）P151"><a href="#无向边（undirected-edge）、有向边（directed-edge）P150起点（origin）、尾顶点（tail）、终点（destination）、头顶点（head）P151" class="headerlink" title="无向边（undirected edge）、有向边（directed edge）P150起点（origin）、尾顶点（tail）、终点（destination）、头顶点（head）P151"></a>无向边（undirected edge）、有向边（directed edge）<em>P150<em>起点（origin）、尾顶点（tail）、终点（destination）、头顶点（head）</em>P151</em></h3><p>若边（u，v）对应的顶点u、v的次序无所谓，则被称为无向边；边（u，v）对应的顶点u、v有次序，则被称为有向边。这里约定（u，v）从u指向v，其中u称为该边的起点或者尾顶点，v称为该边的终点或者头顶点。</p>
+<h3 id="无向图（undirected-graph简称undigraph）、有向图（directed-graph简称digraph）、混合图（mixed-graph）P151"><a href="#无向图（undirected-graph简称undigraph）、有向图（directed-graph简称digraph）、混合图（mixed-graph）P151" class="headerlink" title="无向图（undirected graph简称undigraph）、有向图（directed graph简称digraph）、混合图（mixed graph）P151"></a>无向图（undirected graph简称undigraph）、有向图（directed graph简称digraph）、混合图（mixed graph）<em>P151</em></h3><p>若E中各边均无方向，则G被称为无向图；E中各边均有方向，则G被称为有向图；E中各边有些有方向，有些没有方向则G被称为混合图。</p>
+<h3 id="度数（degree）、邻接（adjacent）、关联（incident）P151"><a href="#度数（degree）、邻接（adjacent）、关联（incident）P151" class="headerlink" title="度数（degree）、邻接（adjacent）、关联（incident）P151"></a>度数（degree）、邻接（adjacent）、关联（incident）<em>P151</em></h3><p>对于任何边e=（u，v），称顶点u，v相互邻接，互为邻居。而它们都与边e彼此关联。在无向图中，顶点u的关联的边数称为度数，记作deg（u）。</p>
+<h3 id="出边（outgoing-edge）、入边（ingoing-edge）、出度（out-degree）、入度（in-degree）P151"><a href="#出边（outgoing-edge）、入边（ingoing-edge）、出度（out-degree）、入度（in-degree）P151" class="headerlink" title="出边（outgoing edge）、入边（ingoing edge）、出度（out-degree）、入度（in-degree）P151"></a>出边（outgoing edge）、入边（ingoing edge）、出度（out-degree）、入度（in-degree）<em>P151</em></h3><p>在有向边e=（u，v）中，e称作u的出边，称作v的入边。v的入边的边数称为入度，记作outdeg（v），出边的边数称为出度，记作indeg（v）。</p>
+<h3 id="自环（self-loop）、简单图（simple-graph）P151"><a href="#自环（self-loop）、简单图（simple-graph）P151" class="headerlink" title="自环（self-loop）、简单图（simple graph）P151"></a>自环（self-loop）、简单图（simple graph）<em>P151</em></h3><p>连接于同一顶点之间的边称为自环，没有任何自环的图被称为简单图。</p>
+<h3 id="通路（path）P151"><a href="#通路（path）P151" class="headerlink" title="通路（path）P151"></a>通路（path）<em>P151</em></h3><p>所谓路径或通路，就是由m+1个顶点与m条边交替而成的一个序列：<br>    π={v0,e1,v1,e2,v2…,em,vm}<br>且对任何0&lt;i&lt;=m，都有ei=（vi-1，vi），也就是说这些边依次首位相联，其中沿途边的总数m，亦称作通路的长度，记作｜π｜=m。<br>为简化描述，也可依次给出通路沿途的各个顶点，而省略连接于其间的边，即表示为：<br>    π={v0,v1,v2,…vm}</p>
+<h3 id="简单通路（simple-path）P152"><a href="#简单通路（simple-path）P152" class="headerlink" title="简单通路（simple path）P152"></a>简单通路（simple path）<em>P152</em></h3><p>尽管通路上的顶点可以重复，但通路上的边不能重复，没有重复的顶点的通路被称作简单通路。</p>
+<h3 id="环路（cycle）P152"><a href="#环路（cycle）P152" class="headerlink" title="环路（cycle）P152"></a>环路（cycle）<em>P152</em></h3><p>对于长度m&gt;=1的通路π，若起止顶点相同，即v0=vm，则称作环路，其长度也取作沿途边的总数。</p>
+<h3 id="有向无环图（directed-acyclic-graph，DAG）P152"><a href="#有向无环图（directed-acyclic-graph，DAG）P152" class="headerlink" title="有向无环图（directed acyclic graph，DAG）P152"></a>有向无环图（directed acyclic graph，DAG）<em>P152</em></h3><p>无任何环路的有向图被称作有向无环图。</p>
+<h3 id="欧拉环路（Eulerian-tour）P152"><a href="#欧拉环路（Eulerian-tour）P152" class="headerlink" title="欧拉环路（Eulerian tour）P152"></a>欧拉环路（Eulerian tour）<em>P152</em></h3><p>经过图中各边一次且恰好一次的环路，称作欧拉环路。当然其长度刚好等于图中总边数e。</p>
+<h3 id="哈密尔顿环路（Hamiltonian-tour）P152"><a href="#哈密尔顿环路（Hamiltonian-tour）P152" class="headerlink" title="哈密尔顿环路（Hamiltonian tour）P152"></a>哈密尔顿环路（Hamiltonian tour）<em>P152</em></h3><p>经过图中各顶点一次且恰好一次的环路，称作哈密尔顿环路，其长度也为图中边的总数e。</p>
+<h3 id="权重（weight）、带权图（weighted-graph）、带权网络（weighted-net）、网络（net）P152"><a href="#权重（weight）、带权图（weighted-graph）、带权网络（weighted-net）、网络（net）P152" class="headerlink" title="权重（weight）、带权图（weighted graph）、带权网络（weighted net）、网络（net）P152"></a>权重（weight）、带权图（weighted graph）、带权网络（weighted net）、网络（net）<em>P152</em></h3><p>通过一个带权值函数，为每条边e指定一个权重，如wt（e）即为边e的权重。各边均带有权重的图，称作带权图。也称作带权网络，亦可称作网络。记为G（V，E，wt（））。</p>
+<h3 id="邻接矩阵（adjacency-matrix）P155"><a href="#邻接矩阵（adjacency-matrix）P155" class="headerlink" title="邻接矩阵（adjacency matrix）P155"></a>邻接矩阵（adjacency matrix）<em>P155</em></h3><p>邻接矩阵是图ADT的最基本实现方式，使用方阵A[n][n]表示由n个顶点构成的图，其中每个单元，各自负责描述一对顶点之间可能存在的邻接关系。<br>对于无权图，存在（不存在）从顶点u到v的边，当且仅当A[u][v]=1(0)。<br>对于有权图，矩阵各单元可从布尔类型改为整型/浮点型，记录所对应边的权重。对于不存在的边统一记为0或∞。</p>
+<h3 id="稀疏图（sparse-graph）P158"><a href="#稀疏图（sparse-graph）P158" class="headerlink" title="稀疏图（sparse graph）P158"></a>稀疏图（sparse graph）<em>P158</em></h3><p>在稀疏图中，边数渐进不超过O（n），仅与顶点总数大致相同。</p>
+<h3 id="邻接表（adjacency-list）P158"><a href="#邻接表（adjacency-list）P158" class="headerlink" title="邻接表（adjacency list）P158"></a>邻接表（adjacency list）<em>P158</em></h3><p>将邻接矩阵逐行转换为一组列表，即可分别记录各顶点的关联边（或等价地，邻接顶点），这些列表即称为邻接表。</p>
+<h3 id="遍历树（traversal-tree）P159"><a href="#遍历树（traversal-tree）P159" class="headerlink" title="遍历树（traversal tree）P159"></a>遍历树（traversal tree）<em>P159</em></h3><p>图的遍历可以理解为，将非线性结构转化为半线性结构的过程，经过遍历而确定的边类型中，最重要的一类即所谓的树边，它们与所有顶点共同构成了原图的一刻支撑树（森林），称作遍历树。</p>
+<h3 id="图搜索（graph-search）P159"><a href="#图搜索（graph-search）P159" class="headerlink" title="图搜索（graph search）P159"></a>图搜索（graph search）<em>P159</em></h3><p>图中顶点之间可能存在多条通路，故为避免对顶点的重复访问，在遍历的过程中，通常还要动态地设置各顶点不同的状态，并随着遍历的进程不断地转换状态，直至最后的“访问完毕”。图的遍历更加强调对处于特定状态顶点的甄别和查找，故也称作图搜索。</p>
+<h3 id="广度优先搜索（breadth-first-search，BFS）、波峰集（frontier）P159"><a href="#广度优先搜索（breadth-first-search，BFS）、波峰集（frontier）P159" class="headerlink" title="广度优先搜索（breadth-first search，BFS）、波峰集（frontier）P159"></a>广度优先搜索（breadth-first search，BFS）、波峰集（frontier）<em>P159</em></h3><p>广度优先搜索的策略可以概括为：</p>
+<blockquote>
+<p>越早被访问到的顶点，其邻居越优先被选用。</p>
+</blockquote>
+<p>于是，始自图中顶点s的BFS搜索，将首先访问顶点s；再依次访问s所有尚未访问到的邻居；再按后者被访问的先后次序，逐个访问它们的邻居；…；如此不断。在所有已经访问到的顶点中，仍有邻居尚未访问者构成所谓的波峰集，于是BFS也可以等效地理解为：</p>
+<blockquote>
+<p>反复从波峰集中找到最早被访问到的顶点v，若其邻居均已被访问，则将其逐出波峰集；否则，随意挑选出一个尚未被访问到的邻居，并将其加入到波峰集。</p>
+</blockquote>
+<p>不难发现，将BFS策略用到树中，则等效于层序遍历。</p>
+<h3 id="连通分量（connected-component）、可达分量（reachable-component）P159"><a href="#连通分量（connected-component）、可达分量（reachable-component）P159" class="headerlink" title="连通分量（connected component）、可达分量（reachable component）P159"></a>连通分量（connected component）、可达分量（reachable component）<em>P159</em></h3><p>因为BFS不会遗漏掉每个刚被访问顶点的任何邻居，故对于无向图必能覆盖s所属的连通分量，对于有向图必能覆盖以s为起点的可达分量。</p>
+<h3 id="广度优先搜索树（BFS-tree）P160"><a href="#广度优先搜索树（BFS-tree）P160" class="headerlink" title="广度优先搜索树（BFS tree）P160"></a>广度优先搜索树（BFS tree）<em>P160</em></h3><p>BFS（）遍历结束后，所有访问过的顶点通过一个指针依次联接，从整体上给出了原图某一连通或可达域的一棵遍历树，称作广度优先搜索树，简称为BFS树。</p>
+<h3 id="BFS森林（BFS-forest）P161"><a href="#BFS森林（BFS-forest）P161" class="headerlink" title="BFS森林（BFS forest）P161"></a>BFS森林（BFS forest）<em>P161</em></h3><p>BFS（s）将覆盖起始顶点s所属的连通分量或可达分量，但是无法抵达此外的顶点。在逐个检查顶点的过程中，只要发现某一顶点尚未被发现，则意味着其所属的连通分量或可达分量尚未触及，故可从该顶点出发再次启动BFS（），以遍历其所属的连通分量或可达分量。如此，各次BFS（）调用所得的BFS树构成一个森林，称作BFS森林。</p>
+<h3 id="深度优先搜索（Depth-First-Search）P162"><a href="#深度优先搜索（Depth-First-Search）P162" class="headerlink" title="深度优先搜索（Depth-First Search）P162"></a>深度优先搜索（Depth-First Search）<em>P162</em></h3><p>深度优先搜索选取下一个顶点的策略可以概括为：</p>
+<blockquote>
+<p>优先选取最后一个被访问到的顶底的邻居</p>
+</blockquote>
+<p>以顶点s为基点的DFS搜索，首先访问顶点s；再从s所有尚未访问到的邻居中任取其一，并以之为基点，递归地执行DFS搜索，故各顶点被访问到的次序，类似于树的先序遍历；而各顶点被访问完毕的次序类似于树的后序遍历。</p>
+<h3 id="树边（tree-edge）P162"><a href="#树边（tree-edge）P162" class="headerlink" title="树边（tree edge）P162"></a>树边（tree edge）<em>P162</em></h3><p>若顶点u尚处于未发现UNDISCOVER状态，则将（v，u）归类为树边。并将v记作u的父节点，此后，便可将u作为当前顶点，继续递归地遍历。</p>
+<h3 id="后向边（back-edge）P163"><a href="#后向边（back-edge）P163" class="headerlink" title="后向边（back edge）P163"></a>后向边（back edge）<em>P163</em></h3><p>若顶点u处于DISCOVER状态，则意味着在此处发现一个有向环路。此时，在DFS遍历树中u必为v的祖先，故应将边（v，u）归类为后向边。</p>
+<h3 id="活跃期（active-duration）P163"><a href="#活跃期（active-duration）P163" class="headerlink" title="活跃期（active duration）P163"></a>活跃期（active duration）<em>P163</em></h3><p>这里为每个顶点v都记录了被发现的和访问完成的时刻，对应的时间区间[dTime（v），fTime（v）]均称为v的活跃期。</p>
+<h3 id="前向边（foward-edge）、跨边（cross-edge）P163"><a href="#前向边（foward-edge）、跨边（cross-edge）P163" class="headerlink" title="前向边（foward edge）、跨边（cross edge）P163"></a>前向边（foward edge）、跨边（cross edge）<em>P163</em></h3><p>对于有向图，顶点u还可能处于VISITED状态，此时只要对比v与u的活跃期，即可判定在DFS树中v是否为u的祖先。若是，则边（v，u）应归类为前向边，否则二者必然来自相互独立的两个分支，边（v，u）应归类为跨边。</p>
+<h3 id="深度优先搜索树（DFS-tree）、深度优先搜索森林（DFS-tree）P163"><a href="#深度优先搜索树（DFS-tree）、深度优先搜索森林（DFS-tree）P163" class="headerlink" title="深度优先搜索树（DFS tree）、深度优先搜索森林（DFS tree）P163"></a>深度优先搜索树（DFS tree）、深度优先搜索森林（DFS tree）<em>P163</em></h3><p>DFS（s）返回后，所有访问过的顶点通过一个指针依次联接，从整体上给出了顶点所属连通或可达分量的一棵遍历树，称作深度遍历树。同属若有其它连通或可达分量，则可以其中任何顶点作为基点，再次启动DFS搜索。最终，经过各次DFS搜索生成的一系列DFS树，构成了DFS森林。</p>
+<h3 id="拓扑排序（topological-sorting）P166"><a href="#拓扑排序（topological-sorting）P166" class="headerlink" title="拓扑排序（topological sorting）P166"></a>拓扑排序（topological sorting）<em>P166</em></h3><p>每一顶点都不会通过边，指向其在此序列中的前驱顶点，这样的一个线性序列称作原有向图的一个拓扑。</p>
+<h3 id="切割节点（cut-vertex）、关节点（articulation-vertex）P168"><a href="#切割节点（cut-vertex）、关节点（articulation-vertex）P168" class="headerlink" title="切割节点（cut vertex）、关节点（articulation vertex）P168"></a>切割节点（cut vertex）、关节点（articulation vertex）<em>P168</em></h3><p>考察无向图G。若删除顶点v后G所包含的连通域增多，则v称作切割节点或关节点。</p>
+<h3 id="双连通域（bi-connected-component）P168"><a href="#双连通域（bi-connected-component）P168" class="headerlink" title="双连通域（bi-connected component）P168"></a>双连通域（bi-connected component）<em>P168</em></h3><p>任一无向图都可视作由若干个极大的双连通子图组合而成，这样的每一字图都称作原图的一个双连通域。</p>
+<h3 id="最高祖先（highest-connected-ancestor，HCA）P169"><a href="#最高祖先（highest-connected-ancestor，HCA）P169" class="headerlink" title="最高祖先（highest connected ancestor，HCA）P169"></a>最高祖先（highest connected ancestor，HCA）<em>P169</em></h3><p>只要在DFS搜索过程中记录并更新各顶点v所能（经由后向边）连通的最高祖先，hca[v]，即可及时确定关节点，并报告对应的双连通域。</p>
+<h3 id="优先级搜索（priority-first-search，PFS）、最佳优先搜索（best-first-search，BFS）P173"><a href="#优先级搜索（priority-first-search，PFS）、最佳优先搜索（best-first-search，BFS）P173" class="headerlink" title="优先级搜索（priority-first search，PFS）、最佳优先搜索（best-first search，BFS）P173"></a>优先级搜索（priority-first search，PFS）、最佳优先搜索（best-first search，BFS）<em>P173</em></h3><p>每一种选取策略都等效于，给所有顶点赋予不同的优先级，而且随着算法的推进不断调整，而且随着算法的推进不断调整；而每一步迭代所取的顶点，都是当时的优先级最高者。按照这种理解，包括BFS和DFS在内的几乎所有图搜索，都可以纳入统一的框架。鉴于优先级在其中所扮演的关键角色，故亦称作优先级搜索，或最佳优先搜素。</p>
+<h3 id="最小支撑树（minimum-spanning-tree，MST）P174"><a href="#最小支撑树（minimum-spanning-tree，MST）P174" class="headerlink" title="最小支撑树（minimum spanning tree，MST）P174"></a>最小支撑树（minimum spanning tree，MST）<em>P174</em></h3><p>若图G为一带权网络，则每一棵支撑树的成本（cost）即为其所采用各边权重的总和，在G的所有支撑树中，成本最低者称作最小支撑树。</p>
+<h3 id="跨越边（crossing-edge）、桥（bridge）P175"><a href="#跨越边（crossing-edge）、桥（bridge）P175" class="headerlink" title="跨越边（crossing edge）、桥（bridge）P175"></a>跨越边（crossing edge）、桥（bridge）<em>P175</em></h3><p>图G=（V；E）中，顶点集V的任一非平凡子集U及其补集V\U<br>都构成G的一个割（cut），记为（U；V\U)。若边uv满足u∈U且v不属于U，则称为该割的一条跨越边，因此类边联接于V及其补集之间，故亦形象地称作该割的一座桥。</p>
+]]></content>
       <tags>
         <tag>-datastructure</tag>
       </tags>
