@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-14T08:54:23.873Z</updated>
+  <updated>2019-12-16T14:53:49.429Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vocabularA</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/</id>
+    <published>2019-12-16T14:41:36.000Z</published>
+    <updated>2019-12-16T14:53:49.429Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;abide | 逗留，遵守，忍受&lt;br&gt;absord | 吸收，消耗，承担&lt;br&gt;accuse | 控告，指责&lt;br&gt;allowanct | 津贴，零用钱，减价，允许&lt;br&gt;abdmen | 腹&lt;br&gt;accessory | 配件，配饰，辅音&lt;br&gt;acrobat | 特技
+      
+    
+    </summary>
+    
+    
+    
+      <category term="-vocabular" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabular/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构关键词索引（八）</title>
@@ -119,7 +141,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/</id>
     <published>2019-12-07T06:03:13.000Z</published>
-    <updated>2019-12-09T06:45:48.096Z</updated>
+    <updated>2019-12-15T15:08:13.185Z</updated>
     
     <summary type="html">
     
@@ -401,29 +423,6 @@
     
     
       <category term="-数据结构" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hoxe系列（一）搭建博客网站</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/page/</id>
-    <published>2019-12-02T03:26:32.000Z</published>
-    <updated>2019-12-02T16:47:19.089Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;“  真正被爱的人在爱人眼里是绽放的丁香，航船渔火，学校铃声，山水风景，难以忘怀的谈话，朋友，孩子的周日，消逝的声音，最心爱的衣服，秋天和所有的季节。 ”&lt;br&gt;/ 杜鲁门·卡波特《别的声音，别的房间》&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="-学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="-建站 - hoxe" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E5%BB%BA%E7%AB%99-hoxe/"/>
     
   </entry>
   
