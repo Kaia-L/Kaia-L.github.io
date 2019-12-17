@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-16T14:53:49.429Z</updated>
+  <updated>2019-12-17T13:32:10.404Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -17,17 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>vocabularA</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/</id>
-    <published>2019-12-16T14:41:36.000Z</published>
-    <updated>2019-12-16T14:53:49.429Z</updated>
+    <title>vocabularB</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/</id>
+    <published>2019-12-17T13:07:22.000Z</published>
+    <updated>2019-12-17T13:32:10.404Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;abide | 逗留，遵守，忍受&lt;br&gt;absord | 吸收，消耗，承担&lt;br&gt;accuse | 控告，指责&lt;br&gt;allowanct | 津贴，零用钱，减价，允许&lt;br&gt;abdmen | 腹&lt;br&gt;accessory | 配件，配饰，辅音&lt;br&gt;acrobat | 特技
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;英文&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;apparatus&lt;/td&gt;
+&lt;td&gt;仪器，器械&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;apparent&lt;/td&gt;
+&lt;td&gt;显
+      
+    
+    </summary>
+    
+    
+    
+      <category term="-vocabular" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabular/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vocabularA</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/</id>
+    <published>2019-12-16T14:41:36.000Z</published>
+    <updated>2019-12-17T01:49:30.217Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;英&lt;/th&gt;
+&lt;th&gt;中&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;abide&lt;/td&gt;
+&lt;td&gt;逗留，遵守，忍受&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;absord&lt;/td&gt;
+&lt;td&gt;吸收，消耗，
       
     
     </summary>
@@ -141,7 +189,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/</id>
     <published>2019-12-07T06:03:13.000Z</published>
-    <updated>2019-12-15T15:08:13.185Z</updated>
+    <updated>2019-12-17T02:00:22.055Z</updated>
     
     <summary type="html">
     
@@ -394,27 +442,6 @@
       &lt;blockquote&gt;
 &lt;p&gt;“  你是我新奇的无尽宝藏&lt;br&gt;    是拂去所有枝叶的百分百现实  ”&lt;br&gt;/ 高村光太郎&lt;/p&gt;
 &lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="-学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="-数据结构" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《数据结构》关键词索引整理（一）</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/Key-Words-in-Data-Structure/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/02/Key-Words-in-Data-Structure/</id>
-    <published>2019-12-02T13:27:37.000Z</published>
-    <updated>2019-12-02T16:43:42.203Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;既然数据结构会考这种送分题那我就不客气了👌&lt;/p&gt;
     
     </summary>
     
