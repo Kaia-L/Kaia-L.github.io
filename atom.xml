@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-17T15:05:28.422Z</updated>
+  <updated>2019-12-18T20:32:50.867Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -17,11 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>vocabularB</title>
+    <title>vocabularyC</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/18/vocabularyC/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/18/vocabularyC/</id>
+    <published>2019-12-18T15:48:12.000Z</published>
+    <updated>2019-12-18T20:32:50.867Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;英文&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;blunder&lt;/td&gt;
+&lt;td&gt;因无知犯错的，愚钝的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bench&lt;/td&gt;
+&lt;td&gt;长
+      
+    
+    </summary>
+    
+    
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
+    
+    
+      <category term="-vocabulary" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabulary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vocabularyB</title>
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/</id>
     <published>2019-12-17T13:07:22.000Z</published>
-    <updated>2019-12-17T15:05:28.422Z</updated>
+    <updated>2019-12-18T15:49:27.796Z</updated>
     
     <summary type="html">
     
@@ -47,16 +84,16 @@
     
     
     
-      <category term="-vocabular -B" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabular-B/"/>
+      <category term="-vocabulary" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabulary/"/>
     
   </entry>
   
   <entry>
-    <title>vocabularA</title>
+    <title>vocabularyA</title>
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/</id>
     <published>2019-12-16T14:41:36.000Z</published>
-    <updated>2019-12-17T15:05:14.971Z</updated>
+    <updated>2019-12-18T15:49:36.660Z</updated>
     
     <summary type="html">
     
@@ -82,7 +119,7 @@
     
     
     
-      <category term="-vocabular -A" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabular-A/"/>
+      <category term="-vocabulary" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabulary/"/>
     
   </entry>
   
@@ -91,7 +128,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/13/Key-Words-in-Date-Structure8/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/13/Key-Words-in-Date-Structure8/</id>
     <published>2019-12-13T14:38:50.000Z</published>
-    <updated>2019-12-14T08:54:23.873Z</updated>
+    <updated>2019-12-18T20:36:54.528Z</updated>
     
     <summary type="html">
     
@@ -100,8 +137,10 @@
     </summary>
     
     
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
-      <category term="-datastructure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/datastructure/"/>
+    
+      <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
     
   </entry>
   
@@ -110,7 +149,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/13/Key-Words-in-Date-Structure7/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/13/Key-Words-in-Date-Structure7/</id>
     <published>2019-12-13T10:02:42.000Z</published>
-    <updated>2019-12-13T14:38:21.133Z</updated>
+    <updated>2019-12-18T20:36:47.100Z</updated>
     
     <summary type="html">
     
@@ -119,8 +158,10 @@
     </summary>
     
     
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
-      <category term="-datastructure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/datastructure/"/>
+    
+      <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
     
   </entry>
   
@@ -129,7 +170,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/11/Key-Words-in-Date-Structure6/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/11/Key-Words-in-Date-Structure6/</id>
     <published>2019-12-11T10:39:37.000Z</published>
-    <updated>2019-12-13T10:02:07.304Z</updated>
+    <updated>2019-12-18T20:36:37.408Z</updated>
     
     <summary type="html">
     
@@ -138,8 +179,10 @@
     </summary>
     
     
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
-      <category term="-datastructure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/datastructure/"/>
+    
+      <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
     
   </entry>
   
@@ -148,7 +191,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/09/2010Text3/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/09/2010Text3/</id>
     <published>2019-12-09T12:23:10.000Z</published>
-    <updated>2019-12-13T10:02:21.401Z</updated>
+    <updated>2019-12-18T20:35:14.952Z</updated>
     
     <summary type="html">
     
@@ -160,6 +203,8 @@
     </summary>
     
     
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
+    
     
       <category term="-English" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/English/"/>
     
@@ -170,7 +215,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/09/2010Text2/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/09/2010Text2/</id>
     <published>2019-12-09T06:46:15.000Z</published>
-    <updated>2019-12-09T12:01:04.935Z</updated>
+    <updated>2019-12-18T20:35:09.435Z</updated>
     
     <summary type="html">
     
@@ -178,6 +223,8 @@
     
     </summary>
     
+    
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
       <category term="-English" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/English/"/>
@@ -189,7 +236,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/07/C-1/</id>
     <published>2019-12-07T06:03:13.000Z</published>
-    <updated>2019-12-17T14:58:51.779Z</updated>
+    <updated>2019-12-18T20:35:38.724Z</updated>
     
     <summary type="html">
     
@@ -202,6 +249,10 @@
     </summary>
     
     
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
+    
+    
+      <category term="-C plus plus" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/C-plus-plus/"/>
     
   </entry>
   
@@ -210,7 +261,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure5/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure5/</id>
     <published>2019-12-06T13:07:00.000Z</published>
-    <updated>2019-12-07T05:57:22.396Z</updated>
+    <updated>2019-12-18T20:36:28.196Z</updated>
     
     <summary type="html">
     
@@ -219,10 +270,10 @@
     </summary>
     
     
-      <category term="-考研" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E8%80%83%E7%A0%94/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
-      <category term="-datastructure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/datastructure/"/>
+      <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
     
   </entry>
   
@@ -231,7 +282,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure4/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/06/Key-Words-in-Date-Structure4/</id>
     <published>2019-12-06T11:06:40.000Z</published>
-    <updated>2019-12-07T05:46:51.987Z</updated>
+    <updated>2019-12-18T20:36:19.917Z</updated>
     
     <summary type="html">
     
@@ -240,10 +291,10 @@
     </summary>
     
     
-      <category term="-考研" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E8%80%83%E7%A0%94/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
-      <category term="-datastructure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/datastructure/"/>
+      <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
     
   </entry>
   
@@ -252,7 +303,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/04/Key-Words-in-Data-Structure3/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/04/Key-Words-in-Data-Structure3/</id>
     <published>2019-12-04T04:43:01.000Z</published>
-    <updated>2019-12-06T11:03:47.704Z</updated>
+    <updated>2019-12-18T20:33:35.948Z</updated>
     
     <summary type="html">
     
@@ -261,7 +312,7 @@
     </summary>
     
     
-      <category term="-学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
       <category term="-data structure" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/data-structure/"/>
@@ -336,7 +387,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%882%EF%BC%89/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%882%EF%BC%89/</id>
     <published>2019-12-03T06:12:39.000Z</published>
-    <updated>2019-12-03T07:21:17.783Z</updated>
+    <updated>2019-12-18T20:34:42.770Z</updated>
     
     <summary type="html">
     
@@ -344,6 +395,8 @@
     
     </summary>
     
+    
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
       <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
@@ -355,7 +408,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%8D%81%E7%AB%A0/</id>
     <published>2019-12-03T04:29:49.000Z</published>
-    <updated>2019-12-03T06:11:38.212Z</updated>
+    <updated>2019-12-18T20:37:40.523Z</updated>
     
     <summary type="html">
     
@@ -364,10 +417,10 @@
     </summary>
     
     
-      <category term="-考研" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E8%80%83%E7%A0%94/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
-      <category term="-政治 -毛中特" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB-%E6%AF%9B%E4%B8%AD%E7%89%B9/"/>
+      <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
     
   </entry>
   
@@ -376,7 +429,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E4%B9%9D%E7%AB%A0/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E4%B9%9D%E7%AB%A0/</id>
     <published>2019-12-03T03:53:56.000Z</published>
-    <updated>2019-12-03T04:31:21.154Z</updated>
+    <updated>2019-12-18T20:34:30.452Z</updated>
     
     <summary type="html">
     
@@ -385,7 +438,7 @@
     </summary>
     
     
-      <category term="-考研" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E8%80%83%E7%A0%94/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
       <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
@@ -397,7 +450,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%85%AB%E7%AB%A0/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%85%AB%E7%AB%A0/</id>
     <published>2019-12-03T03:35:16.000Z</published>
-    <updated>2019-12-03T04:29:06.303Z</updated>
+    <updated>2019-12-18T20:34:22.824Z</updated>
     
     <summary type="html">
     
@@ -406,7 +459,7 @@
     </summary>
     
     
-      <category term="-考研" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E8%80%83%E7%A0%94/"/>
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
     
     
       <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
@@ -427,29 +480,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>《数据结构》关键词索引整理（二）</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/Key-Words-in-Data-Structure2/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/Key-Words-in-Data-Structure2/</id>
-    <published>2019-12-02T16:30:44.000Z</published>
-    <updated>2019-12-04T03:52:56.643Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;“  你是我新奇的无尽宝藏&lt;br&gt;    是拂去所有枝叶的百分百现实  ”&lt;br&gt;/ 高村光太郎&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="-学习" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="-数据结构" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
