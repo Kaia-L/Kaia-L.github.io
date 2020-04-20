@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/"/>
-  <updated>2019-12-18T21:45:45.955Z</updated>
+  <updated>2020-04-20T02:48:01.608Z</updated>
   <id>https://github.com/Kaia-L/Kaia-L.github.io.git/</id>
   
   <author>
@@ -17,11 +17,67 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>阿里云服务器上挂载程序检测学院官网更新</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2020/04/20/aliyun/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2020/04/20/aliyun/</id>
+    <published>2020-04-20T00:24:54.000Z</published>
+    <updated>2020-04-20T02:48:01.608Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;因为疫情原因，20年考研消息迟迟不下来，为了第一时间get到学院官网的更新消息，我写了一个爬虫小demo挂载到阿里云服务器上，并且只要一有跟新就会给我的手机号码发短信。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vocabularyD</title>
+    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/20/vocabularyD/"/>
+    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/20/vocabularyD/</id>
+    <published>2019-12-20T13:38:29.000Z</published>
+    <updated>2019-12-20T14:32:19.360Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;英语&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;casualty&lt;/td&gt;
+&lt;td&gt;伤亡人员，受害者&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cemetery&lt;/td&gt;
+&lt;td
+      
+    
+    </summary>
+    
+    
+      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
+    
+    
+      <category term="-vocabulary" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/vocabulary/"/>
+    
+  </entry>
+  
+  <entry>
     <title>listening1</title>
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/19/listening1/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/19/listening1/</id>
     <published>2019-12-18T21:13:38.000Z</published>
-    <updated>2019-12-18T21:45:45.955Z</updated>
+    <updated>2019-12-20T13:37:48.654Z</updated>
     
     <summary type="html">
     
@@ -41,7 +97,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/18/vocabularyC/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/18/vocabularyC/</id>
     <published>2019-12-18T15:48:12.000Z</published>
-    <updated>2019-12-18T20:32:50.867Z</updated>
+    <updated>2019-12-20T14:17:21.699Z</updated>
     
     <summary type="html">
     
@@ -78,7 +134,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/17/vocabularB/</id>
     <published>2019-12-17T13:07:22.000Z</published>
-    <updated>2019-12-18T15:49:27.796Z</updated>
+    <updated>2019-12-20T14:03:50.832Z</updated>
     
     <summary type="html">
     
@@ -113,7 +169,7 @@
     <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/"/>
     <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/16/vocabularA/</id>
     <published>2019-12-16T14:41:36.000Z</published>
-    <updated>2019-12-18T15:49:36.660Z</updated>
+    <updated>2019-12-20T13:50:16.903Z</updated>
     
     <summary type="html">
     
@@ -217,7 +273,7 @@
     
       
       
-        &lt;p&gt;在他的书《引爆点》中，马克姆·格莱德维尔声称：“社会流行很大程度上是由一小部分特殊&lt;del&gt;领导者&lt;/del&gt;少数人个体的行为&lt;del&gt;引起的&lt;/del&gt;&lt;font color=LightCoral&gt;推动的&lt;/font&gt;，他们被称为‘有影响力的人’，他们通常信息充足、&lt;de
+        &lt;p&gt;在他的书《引爆点》中，马克姆·格莱德维尔声称：“社会流行很大程度上是由一小部分特殊&lt;del&gt;领导者&lt;/del&gt;少数人个体的行为&lt;del&gt;引起的&lt;/del&gt;&lt;font color=&quot;LightCoral&quot;&gt;推动的&lt;/font&gt;，他们被称为‘有影响力的人’，他们通常信息充足、&lt;
       
     
     </summary>
@@ -264,7 +320,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;派生新类的过程包括三个步骤：&lt;br&gt;吸收已有类的成员&lt;br&gt;调整已有类的成员&lt;br&gt;添加新的成员&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;本章围绕派生过程将讨论&lt;br&gt;不同继承方式下基类成员的访问控制问题、添加构造和析构函数&lt;br&gt;接着将讨论在更为复杂的继承关系中，类成员的唯一标示和访问问题&lt;br&gt;最后给出两个类的继承的实例：主选高斯消去法求线性方程组和一个公司的人员管理系统&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;本章围绕派生过程将讨论&lt;br&gt;不同继承方式下基类成员的访问控制问题、添加构造和析构函数&lt;br&gt;接着将讨论在更为复杂的继承关系中，类成员的唯一标示和访问问题&lt;br&gt;最后给出两个类的继承的实例：主选高斯消去法求线性方程组和一个公司的人员管理系统&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -433,48 +489,6 @@
     <summary type="html">
     
       &lt;h1 id=&quot;“五位一体”总体布局经济篇&quot;&gt;&lt;a href=&quot;#“五位一体”总体布局经济篇&quot; class=&quot;headerlink&quot; title=&quot;“五位一体”总体布局经济篇&quot;&gt;&lt;/a&gt;“五位一体”总体布局经济篇&lt;/h1&gt;
-    
-    </summary>
-    
-    
-      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
-    
-    
-      <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>毛中特第九章</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E4%B9%9D%E7%AB%A0/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E4%B9%9D%E7%AB%A0/</id>
-    <published>2019-12-03T03:53:56.000Z</published>
-    <updated>2019-12-18T20:34:30.452Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;坚持和发展中国特色社会主义的总任务&quot;&gt;&lt;a href=&quot;#坚持和发展中国特色社会主义的总任务&quot; class=&quot;headerlink&quot; title=&quot;坚持和发展中国特色社会主义的总任务&quot;&gt;&lt;/a&gt;坚持和发展中国特色社会主义的总任务&lt;/h1&gt;
-    
-    </summary>
-    
-    
-      <category term="-master" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/categories/master/"/>
-    
-    
-      <category term="-政治" scheme="https://github.com/Kaia-L/Kaia-L.github.io.git/tags/%E6%94%BF%E6%B2%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>毛中特第八章</title>
-    <link href="https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%85%AB%E7%AB%A0/"/>
-    <id>https://github.com/Kaia-L/Kaia-L.github.io.git/2019/12/03/%E6%AF%9B%E4%B8%AD%E7%89%B9%E7%AC%AC%E5%85%AB%E7%AB%A0/</id>
-    <published>2019-12-03T03:35:16.000Z</published>
-    <updated>2019-12-18T20:34:22.824Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;中国特色社会主义进入新时代&quot;&gt;&lt;a href=&quot;#中国特色社会主义进入新时代&quot; class=&quot;headerlink&quot; title=&quot;中国特色社会主义进入新时代&quot;&gt;&lt;/a&gt;中国特色社会主义进入新时代&lt;/h1&gt;&lt;p&gt;不能放弃，搏一搏单车变摩托。我不指望能考400过初试，让我考个350我就满足了。&lt;/p&gt;
     
     </summary>
     
