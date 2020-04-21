@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>复试计划</title>
+    <url>/2020/04/20/reexamine/</url>
+    <content><![CDATA[<p>害！紧张！</p>
+<a id="more"></a>
+<h2 id="总揽"><a href="#总揽" class="headerlink" title="总揽"></a>总揽</h2><ul>
+<li>自我介绍</li>
+<li>项目、奖项介绍</li>
+<li>对学院、专业的了解</li>
+<li>问答</li>
+<li>笔试2</li>
+<li>英语口语贯穿其中<h2 id="应对"><a href="#应对" class="headerlink" title="应对"></a>应对</h2></li>
+<li>写好自我介绍</li>
+<li>项目、奖项介绍</li>
+<li>为什么想学这个专业</li>
+<li>问答 刷题、数据结构、面经、计算机网络</li>
+<li>上述所有内容的英语</li>
+<li>科目二也要复习啊</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>视频文字</title>
+    <url>/2020/04/20/weibo/</url>
+    <content><![CDATA[<p>毕设</p>
+<a id="more"></a>
+<h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><p>老师们好<br>我是计算机卓越班的李怡珂<br>我的学号是201613137005<br>我的毕业设计的题目是——基于SnowNPL的社交媒体情感挖掘<br>下面我来介绍一下程序的大致功能</p>
+<h2 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h2><p>（做个ppt，对内容进行简洁的分点描述）<br>我程序的大致功能就是<br>通过微博主页的url链接<br>模仿我们浏览微博时候的请求<br>对微博内容进行爬取<br>生成两个json文件<br>其中一个是peopel.json是爬取的微博博主的个人信息<br>另外一个是statuses.json是爬取的该博主的所有微博信息<br>下一步就是根据生成的json文件提取出值<br>生成两个CSV文件<br>通过CSV文件表格我们就可以更清晰的看到我们提取到的信息<br>再对爬取的每条微博内容进行分词<br>统计词频生成词云<br>通过SnowNPL进行情感计算<br>看出所有微博信息的情绪倾向</p>
+<h2 id="演示部分"><a href="#演示部分" class="headerlink" title="演示部分"></a>演示部分</h2><p>首先我们在微博上找到一个想用来爬虫的博主的微博主页<br>将主页的URL复制到我们的程序中来<br>在终端输入crawl person<br>开始爬虫<br>我们通过终端可以看到爬虫已经开始了<br>因为我们的爬虫也是需要遵守robots协议的<br>所以在爬虫的程序中我们设置了延时是3秒钟<br>我们现在打开json文件来看看<br>我们爬下来的信息和网站中的信息是不是一样的</p>
+<p>现在终端上显示我们的爬虫已经完成了<br>我们来运行一下生成展示页面的程序<br>可以看到我们把这位博主的个人信息进行了展示<br>同时在本地 我们生成了两个csv文件<br>我们打开来看一下<br>每一条微博的发布时间、微博内容、转发数、点赞数、评论数都在这里<br>我们也在本地生成了一张词云的图片<br>通过SnowNPL对每条微博的内容进行了情感分析<br>最终得出平均值<br>并对整体的情感倾向得出了判断<br>是积极的 或者说是消极的</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这就是我的整个程序的运行展示。在这个人人都可以成为媒体平台的自媒体时代，对于文本的情感分析是有很大的存在意义的。特别是在今年的疫情爆发之后，如果我们通过对社交媒体的舆论情感倾向进行分析，就可以更精准的对用户进行情感上的引导和情绪引导。从而避免网络暴力、网络恶性事件的发生。我的展示就到这里了。谢谢各位老师的观看。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>阿里云服务器上挂载程序检测学院官网更新</title>
     <url>/2020/04/20/aliyun/</url>
     <content><![CDATA[<blockquote>
@@ -29,10 +62,7 @@
 <h3 id="后台运行python程序"><a href="#后台运行python程序" class="headerlink" title="后台运行python程序"></a>后台运行python程序</h3><p>服务器启动台中输入：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nohup python -u run.py &gt;  run.log &amp;</span></pre></td></tr></table></figure>
 <p>程序会一直在后台运行，并且将输出写入log文件中</p>
-<h3 id="来康康我的运行效果吧："><a href="#来康康我的运行效果吧：" class="headerlink" title="来康康我的运行效果吧："></a>来康康我的运行效果吧：</h3><p>设置了时间在工作日（周一到周五，9:00-12:00 14:00-17:00）每隔一分钟检测一次官网是否更新。</p>
-<img src="/Kaia-L/Kaia-L.github.io.git/2020/04/20/aliyun/04/20/aliyun/5421587347655_.pic_hd.jpg" class title="阿里云log文件截图">
-<img src="/Kaia-L/Kaia-L.github.io.git/2020/04/20/aliyun/04/20/aliyun/41587348279_.pic_hd.jpg" class title="短信测试">
-
+<h3 id="来康康我的运行效果吧："><a href="#来康康我的运行效果吧：" class="headerlink" title="来康康我的运行效果吧："></a>来康康我的运行效果吧：</h3><p>设置了时间在工作日（周一到周五，9:00-12:00 14:00-17:00）每隔一分钟检测一次官网是否更新。<br><img src="/aliyun/5421587347655_.pic_hd.jpg" alt=""><br><img src="/aliyun/41587348279_.pic_hd.jpg" alt=""></p>
 <blockquote>
 <p>总结：使用服务器后台运行，实时监测网站是否更新。</p>
 </blockquote>
@@ -724,9 +754,9 @@
   <entry>
     <title>2010Text3</title>
     <url>/2019/12/09/2010Text3/</url>
-    <content><![CDATA[<p>在他的书《引爆点》中，马克姆·格莱德维尔声称：“社会流行很大程度上是由一小部分特殊<del>领导者</del>少数人个体的行为<del>引起的</del><font color="LightCoral">推动的</font>，他们被称为‘有影响力的人’，他们通常信息充足、<del>或者（翻译不出）</del><font color="LightCoral">很有说服力或者人脉广阔</font>。<br>这个想法<font color="LightCoral">在直观上很让人信服</font>，但它并没有解释思想是如何传播的。</p>
-<p>这种所谓的有影响力的人的重要性来源于一个<del>误传的</del><font color="LightCoral">貌似有道理的</font>、但是未经证实的被称为“两部流动交流”的理论——信息从媒体传向有影响力的人，然后从有影响力的人传向其他所有人。<br><del>市场工作者</del><font color="LightCoral">营销人员</font>已经接受了这种两步流动理论，因为这个理论暗示了<del>如果</del><font color="LightCoral">只要</font>他们能找到然后影响这些有影响力的人，这些精选出来的人将会完成他们的大部分任务。<br>这个理论同样也似乎解释了突然和出乎意料的<del>外表</del><font color="LightCoral">时式</font>、品牌或者社区<font color="LightCoral">地段</font>的流行。<br>在许多类似的事例中，一个粗略的调查发现无论这些是什么，在其他人注意到之前，一些小的团体已经在穿着、推进、或者发展它们了。<br>这类的奇逸证据较好地对应了只有少数特定人群才能主宰潮流的思想。</p>
-<p>然而，在他们最近的工作中，一些研究者逐渐发现有影响力的人对社会流行的影响力远远小于普遍的<del>期望</del><font color="LightCoral">猜想/假定/假设</font>。<br>事实上，他们似乎完全没有被需要。</p>
+    <content><![CDATA[<p>在他的书《引爆点》中，马克姆·格莱德维尔声称：“社会流行很大程度上是由一小部分特殊<del>领导者</del>少数人个体的行为<del>引起的</del><font color=LightCoral>推动的</font>，他们被称为‘有影响力的人’，他们通常信息充足、<del>或者（翻译不出）</del><font color=LightCoral>很有说服力或者人脉广阔</font>。<br>这个想法<font color=LightCoral>在直观上很让人信服</font>，但它并没有解释思想是如何传播的。</p>
+<p>这种所谓的有影响力的人的重要性来源于一个<del>误传的</del><font color=LightCoral>貌似有道理的</font>、但是未经证实的被称为“两部流动交流”的理论——信息从媒体传向有影响力的人，然后从有影响力的人传向其他所有人。<br><del>市场工作者</del><font color=LightCoral>营销人员</font>已经接受了这种两步流动理论，因为这个理论暗示了<del>如果</del><font color=LightCoral>只要</font>他们能找到然后影响这些有影响力的人，这些精选出来的人将会完成他们的大部分任务。<br>这个理论同样也似乎解释了突然和出乎意料的<del>外表</del><font color=LightCoral>时式</font>、品牌或者社区<font color=LightCoral>地段</font>的流行。<br>在许多类似的事例中，一个粗略的调查发现无论这些是什么，在其他人注意到之前，一些小的团体已经在穿着、推进、或者发展它们了。<br>这类的奇逸证据较好地对应了只有少数特定人群才能主宰潮流的思想。</p>
+<p>然而，在他们最近的工作中，一些研究者逐渐发现有影响力的人对社会流行的影响力远远小于普遍的<del>期望</del><font color=LightCoral>猜想/假定/假设</font>。<br>事实上，他们似乎完全没有被需要。</p>
 <p>研究人员的结论来源于一个简单的关于社会影响的观察：对像奥普拉·温弗瑞这样的几个社会名流的期盼，他们的外在表现主要就是一个媒体的功能，而不是人与人之间的影响，甚至于是在流行上最有影响力的成员，也不能与很多的外人相互影响。</p>
 ]]></content>
       <categories>
@@ -741,25 +771,25 @@
     <url>/2019/12/09/2010Text2/</url>
     <content><![CDATA[<p>不知不觉从英语大佬变成了英语弱鸡</p>
 <a id="more"></a>
-<p>在过去的十年里，数以千计的专利授予给了所谓的商业模式。亚马逊的“单击”的在线支付系统收到了一种<font color="LightCoral">项</font>专利。美林的资产配置策略得到了法律保护。一位发明家得到了<font color="LightCoral">一种</font>提箱技术的专利。</p>
-<p>现在美国国家最高专利法院<font color="LightCoral">庭</font>似乎已经完全做好了收回<font color="LightCoral">减少</font>商业模式专利<font color="LightCoral">数量</font>的准备，这些专利<font color="LightCoral">自十年前</font>第一次被批准的时候就充满了争议。<br>在一项<font color="LightCoral">让</font>知识产权律师喋喋<font color="LightCoral">议论纷纷的</font>的运动中<font color="LightCoral">举措中</font>，美国联邦巡回上诉法庭宣称，他们将用一个特殊的例案来制造一个对商业方法专利全面的重审。<br>来自密苏里大学法学院的<del>丹尼斯</del><font color="LightCoral">丹尼斯·D·克劳奇说</font>，我们熟知的比尔斯基的案件是一个“大事件”，因为这个事件有消除<del>整个专利类型</del><font color="LightCoral">整类专利</font>的潜在可能性。</p>
+<p>在过去的十年里，数以千计的专利授予给了所谓的商业模式。亚马逊的“单击”的在线支付系统收到了一种<font color=LightCoral>项</font>专利。美林的资产配置策略得到了法律保护。一位发明家得到了<font color=LightCoral>一种</font>提箱技术的专利。</p>
+<p>现在美国国家最高专利法院<font color=LightCoral>庭</font>似乎已经完全做好了收回<font color=LightCoral>减少</font>商业模式专利<font color=LightCoral>数量</font>的准备，这些专利<font color=LightCoral>自十年前</font>第一次被批准的时候就充满了争议。<br>在一项<font color=LightCoral>让</font>知识产权律师喋喋<font color=LightCoral>议论纷纷的</font>的运动中<font color=LightCoral>举措中</font>，美国联邦巡回上诉法庭宣称，他们将用一个特殊的例案来制造一个对商业方法专利全面的重审。<br>来自密苏里大学法学院的<del>丹尼斯</del><font color=LightCoral>丹尼斯·D·克劳奇说</font>，我们熟知的比尔斯基的案件是一个“大事件”，因为这个事件有消除<del>整个专利类型</del><font color=LightCoral>整类专利</font>的潜在可能性。</p>
 <blockquote>
-<p><font color="LightCoral">此处存疑，某某某说能否提前，是不是引号里的内容都是这个人说的？</font></p>
+<p><font color=LightCoral>此处存疑，某某某说能否提前，是不是引号里的内容都是这个人说的？</font></p>
 </blockquote>
-<p>对于商业方式的专利申请的限制可能会发生<font color="LightCoral">戏剧性的</font>180度的大转变，因为正是联邦巡回法庭它本身在1998年对于所谓的<del>洲街道法案</del><font color="LightCoral">“道富银行案”</font><del>决定</del><font color="LightCoral">裁决中</font><br><del>生成了</del><font color="LightCoral">引入了</font>这<del>样</del><font color="LightCoral">类</font>的专利，批准了<font color="LightCoral">一项</font><del>相互集资</del><font color="LightCoral">共同基金资产筹集</font>方法的专利。</p>
+<p>对于商业方式的专利申请的限制可能会发生<font color=LightCoral>戏剧性的</font>180度的大转变，因为正是联邦巡回法庭它本身在1998年对于所谓的<del>洲街道法案</del><font color=LightCoral>“道富银行案”</font><del>决定</del><font color=LightCoral>裁决中</font><br><del>生成了</del><font color=LightCoral>引入了</font>这<del>样</del><font color=LightCoral>类</font>的专利，批准了<font color=LightCoral>一项</font><del>相互集资</del><font color=LightCoral>共同基金资产筹集</font>方法的专利。</p>
 <blockquote>
 <p>注意翻译时的单复数的使用，还有不要漏次掉词</p>
 </blockquote>
-<p><del>这</del><font color="LightCoral">那</font>项裁决导致了商业方法专利<del>综卷</del><font color="LightCoral">综卷</font>的激增，最初是<del>由</del>新兴互联网公司试图去标注出特定类型的网络交易的独家占有权。</p>
+<p><del>这</del><font color=LightCoral>那</font>项裁决导致了商业方法专利<del>综卷</del><font color=LightCoral>综卷</font>的激增，最初是<del>由</del>新兴互联网公司试图去标注出特定类型的网络交易的独家占有权。</p>
 <blockquote>
 <p>注意细节，以及中文的准确性</p>
 </blockquote>
-<p>之后，越来越多的<del>建立起的</del><font color="LightCoral">老牌</font>公司竞相在它们的卷宗上加上这类专利，<del>好像只有通过这种对抗竞争对手的防守举措他们才能一击制胜</del><font color="LightCoral">哪怕只是作为一项防御性措施以防范可能先发制人的竞争对手</font>。</p>
+<p>之后，越来越多的<del>建立起的</del><font color=LightCoral>老牌</font>公司竞相在它们的卷宗上加上这类专利，<del>好像只有通过这种对抗竞争对手的防守举措他们才能一击制胜</del><font color=LightCoral>哪怕只是作为一项防御性措施以防范可能先发制人的竞争对手</font>。</p>
 <blockquote>
 <p>if only as a defensive move against rivals that might beat them to the punch.注意if only … 是哪怕…. ，that后面的从句修饰rivals，as是以…的方式。beat them to the punch 先发制人，翻译成一击制胜也可以。注意翻译的地道性。</p>
 </blockquote>
 <p>在2005年，一份法庭卷宗中标注了IBM被授予了300多项商业方法专利，尽管它被怀疑这些授予的专利是否存在法律依据。<br>同样地，一些华尔街投资公司用理财产品的专利把自己武装起来，尽管它们在法庭案件中站在违背常理的那边。</p>
-<p>比尔斯基的案件涉及<font color="LightCoral">一项</font>到在能源市场中规避风险的方法专利申请。<br>联邦巡回法庭颁布了一份不寻常的<del>序列声明</del><font color="LightCoral">指令</font>，<del>在这份声明当中</del><font color="LightCoral">宣称</font>这个案件将会被12位法官听证，而不是典型的三人小组，并且，还有个它想重新评估的问题就是，是否应该重新定夺“富街银行案件”中的裁决。</p>
+<p>比尔斯基的案件涉及<font color=LightCoral>一项</font>到在能源市场中规避风险的方法专利申请。<br>联邦巡回法庭颁布了一份不寻常的<del>序列声明</del><font color=LightCoral>指令</font>，<del>在这份声明当中</del><font color=LightCoral>宣称</font>这个案件将会被12位法官听证，而不是典型的三人小组，并且，还有个它想重新评估的问题就是，是否应该重新定夺“富街银行案件”中的裁决。</p>
 <blockquote>
 <p>这里句子的划分出现重大错误！！！The federal Circuit issued an unusual order stating that the case would be heard by all 12 of the court’s judges.其中stating是作为动词，对order（n.指令）的修饰。而非order stating作为一个组合名词。</p>
 </blockquote>
@@ -767,15 +797,15 @@
 <blockquote>
 <p>理解错误，come in…在…之后，故正确翻译应该是，联邦巡回法庭的这一举措带紧随是最高法庭作出一系列决定收缩了对专利持有者的保护范围的决定之后。</p>
 </blockquote>
-<p>例如去年四月，法官们表示太多的<del>明显的</del>专利都被<del>提高到</del><font color="LightCoral">授予了</font><del>所谓</del><font color="LightCoral">平平无奇的</font>“发明”的高度上。</p>
+<p>例如去年四月，法官们表示太多的<del>明显的</del>专利都被<del>提高到</del><font color=LightCoral>授予了</font><del>所谓</del><font color=LightCoral>平平无奇的</font>“发明”的高度上。</p>
 <blockquote>
 <p>obvious是在修饰发明，并非专利，并且要转译为“平平无奇”</p>
 </blockquote>
-<p><del>一位专利大法官兼乔治华盛顿大学法学院的教授哈罗德·C·魏格纳说</del><font color="LightCoral">身兼专利律师和…的XXX说</font>，联邦巡回法庭上的法官们都在对最高法庭提出的“反专利”的形势作出回应。</p>
+<p><del>一位专利大法官兼乔治华盛顿大学法学院的教授哈罗德·C·魏格纳说</del><font color=LightCoral>身兼专利律师和…的XXX说</font>，联邦巡回法庭上的法官们都在对最高法庭提出的“反专利”的形势作出回应。</p>
 <blockquote>
 <p>这里可以翻译成身兼…和…的XXX说，原来翻译不太通畅。attorney是代理律师的意思，不是大法官。</p>
 </blockquote>
-<p><font color="LightCoral">翻译得还行，后面比较顺畅，我可真牛逼。</font></p>
+<p><font color=LightCoral>翻译得还行，后面比较顺畅，我可真牛逼。</font></p>
 ]]></content>
       <categories>
         <category>-master</category>
@@ -793,12 +823,12 @@
 </li>
 <li><p>本章围绕派生过程将讨论<br>不同继承方式下基类成员的访问控制问题、添加构造和析构函数<br>接着将讨论在更为复杂的继承关系中，类成员的唯一标示和访问问题<br>最后给出两个类的继承的实例：主选高斯消去法求线性方程组和一个公司的人员管理系统</p>
 <a id="more"></a>
-<h2 id="类的继承与派生"><a href="#类的继承与派生" class="headerlink" title="类的继承与派生"></a>类的继承与派生</h2><h3 id="继承关系举例"><a href="#继承关系举例" class="headerlink" title="继承关系举例"></a>继承关系举例</h3><p>类的继承和派生的层次结构，对应于现实生活中的对事物进行分类、分析和认识的过程。在树状的分类中，最上层的具有最高的抽象性，最下层的具有最高的具体性。<br>所谓继承就是从先辈处得到属性和行为特征。类的继承，就是新的类从已有类那里得到已有的特性，反过来看，类的派生就是从已有类那里得到已有特性从而形成新的类。原有类被称为<font color="LightCoral">基累</font>或者<font color="LightCoral">父类</font>，产生新的类被称为<font color="LightCoral">派生类</font>或者<font color="LightCoral">子类</font>。</p>
+<h2 id="类的继承与派生"><a href="#类的继承与派生" class="headerlink" title="类的继承与派生"></a>类的继承与派生</h2><h3 id="继承关系举例"><a href="#继承关系举例" class="headerlink" title="继承关系举例"></a>继承关系举例</h3><p>类的继承和派生的层次结构，对应于现实生活中的对事物进行分类、分析和认识的过程。在树状的分类中，最上层的具有最高的抽象性，最下层的具有最高的具体性。<br>所谓继承就是从先辈处得到属性和行为特征。类的继承，就是新的类从已有类那里得到已有的特性，反过来看，类的派生就是从已有类那里得到已有特性从而形成新的类。原有类被称为<font color=LightCoral>基累</font>或者<font color=LightCoral>父类</font>，产生新的类被称为<font color=LightCoral>派生类</font>或者<font color=LightCoral>子类</font>。</p>
 <h3 id="派生类的定义"><a href="#派生类的定义" class="headerlink" title="派生类的定义"></a>派生类的定义</h3><p>🌰</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Derived:public Base1,private Base2&#123;</span></pre></td></tr><tr><td class="code"><pre><span class="line">public:</span></pre></td></tr><tr><td class="code"><pre><span class="line">    Derived();</span></pre></td></tr><tr><td class="code"><pre><span class="line">    ~Derived();</span></pre></td></tr><tr><td class="code"><pre><span class="line">&#125;</span></pre></td></tr></table></figure></li>
 <li><p>单继承与多继承<br>其中base1、base2是基类，derived是派生类。由上可知，一个派生类可以有多个基类，这种情况称为多继承。一个派生类只有一个基类，这种情况被称为单继承。<br>单继承和多继承是对于派生类来说的，派生类有多个基类，就是多继承，派生类只有一个基类就是单继承。就算一个基类派生出来了多个派生类，只要派生类只继承了他这一个基类，这些派生类就是单继承。</p>
 </li>
-<li><p>直接继承和间接继承<br>在族类中，直接参与派生出某类的基类称为<font color="LightCoral">直接基类</font>，基类的基类甚至更高的基类被称为<font color="LightCoral">间接基类</font>。</p>
+<li><p>直接继承和间接继承<br>在族类中，直接参与派生出某类的基类称为<font color=LightCoral>直接基类</font>，基类的基类甚至更高的基类被称为<font color=LightCoral>间接基类</font>。</p>
 </li>
 <li><p>继承方式<br>继承方式规定了如何访问从基类继承的成员。每一个“继承方式”只限定紧随其后的基类。</p>
 </li>
@@ -1174,7 +1204,7 @@
   <entry>
     <title>如何记忆大段文字并在考试时信手引用？</title>
     <url>/2019/12/03/demo/</url>
-    <content><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg" alt></p>
+    <content><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/005Nep6ygy1g8k0p5s3y9j32wv1y41kz.jpg" alt=""></p>
 <a id="more"></a>
 <p><strong>记忆的一个重要前提：考试要求是对观点能够信手拈来，而论据和观点本身化为己用，并不是一字不差地誊写在卷面上。</strong></p>
 <h4 id="不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆"><a href="#不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆" class="headerlink" title="不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆"></a>不要直接背书上的叙述性文字，要通过自己的语言加工，机械重复并不能加强记忆</h4><h4 id="如何进行精细加工？"><a href="#如何进行精细加工？" class="headerlink" title="如何进行精细加工？"></a>如何进行精细加工？</h4><p>记忆书本原有的关键词、知识点等“点”信息，而后自己去连“点”成“线”，把这一块的“点”信息串成有逻辑的内容。<br>怎么联系？记住关键词和知识点之后，记关系：并列？因果？时间？空间？人物？然后合上书本，用自己的逻辑语言系统把关键词串起来。</p>
@@ -1193,7 +1223,7 @@
 <p>“  你是我新奇的无尽宝藏<br>    是拂去所有枝叶的百分百现实  ”<br>/ 高村光太郎</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p><img src="https://wx1.sinaimg.cn/mw690/532c5244gy1g95ux4ffw5j20u01407ql.jpg" alt></p>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p><img src="https://wx1.sinaimg.cn/mw690/532c5244gy1g95ux4ffw5j20u01407ql.jpg" alt=""></p>
 <h3 id="序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28"><a href="#序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28" class="headerlink" title="序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）P28"></a>序列（sequence）、向量（vector）、列表（list）、秩（rank）、位置（position）<em>P28</em></h3><p>最基本的线性结构被称为序列，根据数据项的逻辑次序和物理存贮次序是否吻合可以讲其分为向量和列表。在向量中数据项的逻辑次序和物理储存地址的次序相对应，此时的逻辑次序被称为秩。在列表中数据项的逻辑次序和物理存储地址的次序不一定相对应，其用间接定址的方式通过封装后的位置相互引用。</p>
 <h3 id="数组（array）P28"><a href="#数组（array）P28" class="headerlink" title="数组（array）P28"></a>数组（array）<em>P28</em></h3><p>若集合S中有n个元素，且元素之间存在着一定的次序，则可以把该数组存储在以A[]为首起始地址的一段连续的存储空间中，并且把他们统称为数组，通常以A[]作为该数组的标识。</p>
 <h3 id="前驱（predecessor）、后继（successor）、直接前驱（immediate-predecessor）、直接后继（immediate-predecessor）、前缀（prefix）、后缀（sffix）P28"><a href="#前驱（predecessor）、后继（successor）、直接前驱（immediate-predecessor）、直接后继（immediate-predecessor）、前缀（prefix）、后缀（sffix）P28" class="headerlink" title="前驱（predecessor）、后继（successor）、直接前驱（immediate predecessor）、直接后继（immediate predecessor）、前缀（prefix）、后缀（sffix）P28"></a>前驱（predecessor）、后继（successor）、直接前驱（immediate predecessor）、直接后继（immediate predecessor）、前缀（prefix）、后缀（sffix）<em>P28</em></h3><p>对于任何0&lt;=i&lt;j&lt;=n，A[i]都是A[j]前驱。A[j]都是A[i]的后期。特别的，对于任何i&gt;=1，A[i-1]称作A[i]的直接前驱，对任何i&lt;=n-2，A[i+1]称作A [i]的直接后继。任意元素的所有前驱统称为该元素的前缀，所有后继统称为该元素的后缀。也就是说前驱是指单个元素，后继也是指单个元素，在他前面就是他的前驱在他后面就是他的后继，然后在他前面一个的叫做直接前驱，在他后面一个的叫做直接后继，它的前驱构成的集合叫做前缀，后继构成的集合叫做后缀。</p>
